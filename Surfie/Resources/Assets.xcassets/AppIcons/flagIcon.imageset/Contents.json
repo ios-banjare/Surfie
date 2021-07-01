@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "portugese.png",
+      "filename" : "world.pdf",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "portugese-1.png",
+      "filename" : "world-1.pdf",
       "idiom" : "universal"
     },
     {
@@ -21,7 +21,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "portugese-2.png",
+      "filename" : "world-2.pdf",
       "idiom" : "universal"
     }
   ],

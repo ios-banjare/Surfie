@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "star.png",
+      "filename" : "star.pdf",
       "idiom" : "universal"
     },
     {
@@ -11,6 +11,7 @@
           "value" : "light"
         }
       ],
+      "filename" : "star-1.pdf",
       "idiom" : "universal"
     },
     {
@@ -20,6 +21,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "star-2.pdf",
       "idiom" : "universal"
     }
   ],

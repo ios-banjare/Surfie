@@ -15,6 +15,7 @@ class VehiclesCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var lblDesc : UILabel!
     @IBOutlet weak var vwRating : CosmosView!
     @IBOutlet weak var imgVehicle : UIImageView!
+    @IBOutlet weak var vwImageContainer : UIView!
 
     //MARK: - View Cycle -
     
@@ -25,7 +26,7 @@ class VehiclesCollectionViewCell: UICollectionViewCell {
     }
     
     func setUpOnLoad() {
-        imgVehicle.layer.applySketchShadow()
+        vwImageContainer.layer.applySketchShadow()
     }
     
     func setVehicleData(_ data: TutorialData?, atIndex value: Int) {

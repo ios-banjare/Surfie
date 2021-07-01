@@ -175,28 +175,30 @@ class Common: NSObject {
       return String((0..<length).map{ _ in letters.randomElement()! })
     }
     
-    func rootToHome() {
-        
-        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
-        let mainViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Home)
-        guard let leftViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Menu) as? MenuViewController else {
-            return
-        }
-        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
-        nvc.isNavigationBarHidden = true
-        let nvcLeft: UINavigationController = UINavigationController(rootViewController: leftViewController)
-        nvcLeft.isNavigationBarHidden = true
-        
-        let slideMenuController = SlideMenuController(mainViewController: nvc, leftMenuViewController: nvcLeft)
-        slideMenuController.delegate = mainViewController as? SlideMenuControllerDelegate
-        UIApplication.window().rootViewController = slideMenuController
-        UIApplication.window().makeKeyAndVisible()
-    }
+//    func rootToHome() {
+//
+//        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
+//        let mainViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Home)
+//        guard let leftViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Menu) as? MenuViewController else {
+//            return
+//        }
+//        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
+//        nvc.isNavigationBarHidden = true
+//        let nvcLeft: UINavigationController = UINavigationController(rootViewController: leftViewController)
+//        nvcLeft.isNavigationBarHidden = true
+//
+//        let slideMenuController = SlideMenuController(mainViewController: nvc, leftMenuViewController: nvcLeft)
+//        slideMenuController.delegate = mainViewController as? SlideMenuControllerDelegate
+//        UIApplication.window().rootViewController = slideMenuController
+//        UIApplication.window().makeKeyAndVisible()
+//    }
     
-    func rootToSideMenu(controllerBy strId: String)  {
-        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
+    func rootToSideMenu(controllerBy strId: String, andByStorybord name: String)  {
+        let storyboard = UIStoryboard(name: name, bundle: nil)
         let mainViewController = storyboard.instantiateViewController(withIdentifier: strId)
-        guard let leftViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Menu) as? MenuViewController else {
+        
+        let storyboardSideMenu = UIStoryboard(name: StoryboardNames.Main.rawValue, bundle: nil)
+        guard let leftViewController = storyboardSideMenu.instantiateViewController(withIdentifier: StoryboardIds.Menu) as? MenuViewController else {
             return
         }
         let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
@@ -209,21 +211,21 @@ class Common: NSObject {
         UIApplication.window().makeKeyAndVisible()
     }
     
-    func rootToVehicles() {
-        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
-        let mainViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Vehicles)
-        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
-        nvc.isNavigationBarHidden = true
-        UIApplication.window().rootViewController = nvc
-        UIApplication.window().makeKeyAndVisible()
-    }
-    
-    func rootToExperiences() {
-        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
-        let mainViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Experiences)
-        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
-        nvc.isNavigationBarHidden = true
-        UIApplication.window().rootViewController = nvc
-        UIApplication.window().makeKeyAndVisible()
-    }
+//    func rootToVehicles() {
+//        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
+//        let mainViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Vehicles)
+//        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
+//        nvc.isNavigationBarHidden = true
+//        UIApplication.window().rootViewController = nvc
+//        UIApplication.window().makeKeyAndVisible()
+//    }
+//
+//    func rootToExperiences() {
+//        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
+//        let mainViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Experiences)
+//        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
+//        nvc.isNavigationBarHidden = true
+//        UIApplication.window().rootViewController = nvc
+//        UIApplication.window().makeKeyAndVisible()
+//    }
 }

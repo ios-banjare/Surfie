@@ -7,8 +7,8 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <customFonts key="customFonts">
-        <array key="TimesNewRoman.ttf">
-            <string>.SFUI-Regular</string>
+        <array key="Montserrat-Medium.otf">
+            <string>Montserrat-Medium</string>
         </array>
     </customFonts>
     <objects>
@@ -31,12 +31,12 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zsC-pA-PUi">
                     <rect key="frame" x="0.0" y="1" width="114.5" height="69"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alugar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJD-RM-WSz">
-                            <rect key="frame" x="38" y="45" width="39" height="16"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Alugar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xJD-RM-WSz">
+                            <rect key="frame" x="34" y="45" width="60" height="16"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="16" id="ah2-qc-nKu"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="14"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -70,15 +70,15 @@
                     <rect key="frame" x="114.5" y="1" width="115" height="69"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Veículos" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3v-xb-snk">
-                            <rect key="frame" x="33.5" y="45" width="48.5" height="16"/>
+                            <rect key="frame" x="28" y="45" width="59" height="16"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="16" id="Lo4-Ja-4x2"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="14"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vehicleUnselected" translatesAutoresizingMaskIntoConstraints="NO" id="uam-fx-Xja">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vehicleSelected" translatesAutoresizingMaskIntoConstraints="NO" id="uam-fx-Xja">
                             <rect key="frame" x="45" y="15" width="25" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="2cA-za-UHQ"/>
@@ -108,15 +108,15 @@
                     <rect key="frame" x="229.5" y="1" width="114.5" height="69"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experience" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wp-OV-9ck">
-                            <rect key="frame" x="25.5" y="45" width="63" height="16"/>
+                            <rect key="frame" x="17.5" y="45" width="79.5" height="16"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="16" id="vOk-Qw-wPk"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name=".SFUI-Regular" family=".AppleSystemUIFont" pointSize="14"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="experienceUnselected" translatesAutoresizingMaskIntoConstraints="NO" id="ijL-RP-85P">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="experienceSelected" translatesAutoresizingMaskIntoConstraints="NO" id="ijL-RP-85P">
                             <rect key="frame" x="44.5" y="15" width="25" height="25"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="25" id="LkA-Gi-v3g"/>
@@ -178,12 +178,12 @@
                     <real key="value" value="8"/>
                 </userDefinedRuntimeAttribute>
             </userDefinedRuntimeAttributes>
-            <point key="canvasLocation" x="23" y="-128"/>
+            <point key="canvasLocation" x="22.399999999999999" y="-128.63568215892056"/>
         </view>
     </objects>
     <resources>
-        <image name="experienceUnselected" width="56" height="56"/>
+        <image name="experienceSelected" width="56" height="56"/>
         <image name="rentSelected" width="56" height="56"/>
-        <image name="vehicleUnselected" width="102" height="72"/>
+        <image name="vehicleSelected" width="68" height="48"/>
     </resources>
 </document>

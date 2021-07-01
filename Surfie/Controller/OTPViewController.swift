@@ -64,7 +64,9 @@ class OTPViewController: UIViewController ,HeaderViewDelegate {
     @IBAction func btnSubmitTapped(_ sender: UIButton) {
         Defaults.setValueFor(key: .selectedTab,
                              value: TabNames.rent.rawValue)
-        Common.instance.rootToHome()
+        Common.instance.rootToSideMenu(
+            controllerBy: StoryboardIds.Home,
+            andByStorybord: StoryboardNames.Main.rawValue)
     }
     
     @IBAction func btnResendTapped(_ sender: UIButton) {

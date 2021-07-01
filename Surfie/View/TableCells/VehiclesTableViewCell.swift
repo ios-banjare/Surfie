@@ -56,9 +56,10 @@ extension VehiclesTableViewCell : UICollectionViewDelegate,UICollectionViewDataS
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let width = (Screen.Width - 45)/1.5
+        let width = (Screen.Width - 30)/1.5
         return CGSize(width: width,
-                      height: 235)
+                      height: 245
+        )
     }
     
 }

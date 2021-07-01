@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "Rectangle.pdf",
+      "filename" : "background-mobile.pdf",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "Rectangle-1.pdf",
+      "filename" : "background-mobile-1.pdf",
       "idiom" : "universal"
     },
     {
@@ -21,7 +21,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "Rectangle-2.pdf",
+      "filename" : "background-mobile-2.pdf",
       "idiom" : "universal"
     }
   ],

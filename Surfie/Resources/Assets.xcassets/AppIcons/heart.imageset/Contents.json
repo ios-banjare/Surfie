@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "heart.png",
+      "filename" : "heart.pdf",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "heart-1.png",
+      "filename" : "heart-1.pdf",
       "idiom" : "universal"
     },
     {
@@ -21,7 +21,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "heart-2.png",
+      "filename" : "heart-2.pdf",
       "idiom" : "universal"
     }
   ],
