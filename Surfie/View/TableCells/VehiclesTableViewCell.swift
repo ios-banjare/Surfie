@@ -1,0 +1,64 @@
+//
+//  VehiclesTableViewCell.swift
+//  Surfie
+//
+//  Created by Mahadev on 30/06/21.
+//
+
+import UIKit
+
+class VehiclesTableViewCell: UITableViewCell {
+
+    //MARK: - [ IBOutlets & Properties] -
+    
+    @IBOutlet weak var cvcVehicles : UICollectionView!
+    @IBOutlet weak var lblHeading : UILabel!
+
+    var oneCell: Bool = false
+    
+    //MARK: - [ ViewLifeCycle ] -
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+        self.setUpOnLoad()
+    }
+
+    func setUpOnLoad() {
+        let cellNib = UINib(nibName: CustomCellIds.VehiclesCollectionCell,
+                           bundle: Bundle.main)
+        cvcVehicles.register(cellNib,
+                            forCellWithReuseIdentifier: CustomCellIds.VehiclesCollectionCell)
+    }
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+
+        // Configure the view for the selected state
+    }
+
+}
+
+
+//MARK: - [ Collection Method ] -
+
+extension VehiclesTableViewCell : UICollectionViewDelegate,UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int{
+        return oneCell ? 1 : 3
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(
+                withReuseIdentifier: CustomCellIds.VehiclesCollectionCell,
+                for: indexPath) as? VehiclesCollectionViewCell else {
+            return UICollectionViewCell()
+        }
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let width = (Screen.Width - 45)/1.5
+        return CGSize(width: width,
+                      height: 235)
+    }
+    
+}

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+        </array>
+        <array key="Montserrat-Medium.otf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="VehiclesCollectionViewCell" customModule="Surfie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="267" height="235"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="267" height="235"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vehicleDummy" translatesAutoresizingMaskIntoConstraints="NO" id="LGp-wz-RIp">
+                        <rect key="frame" x="0.0" y="0.0" width="267" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="ETw-DX-DFf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VW Camper Vans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR2-sO-ng6">
+                        <rect key="frame" x="0.0" y="165" width="267" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="U9x-Wa-mnv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Siesta Campers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Oy-vg-wc0">
+                        <rect key="frame" x="0.0" y="195" width="267" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="Y3C-gb-YFi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gke-LJ-Pcb" customClass="CosmosView" customModule="Cosmos">
+                        <rect key="frame" x="0.0" y="220" width="85" height="15"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="85" id="8eN-BD-ELD"/>
+                            <constraint firstAttribute="height" constant="15" id="sQE-g0-mhq"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="rating">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="totalStars">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="filledColor">
+                                <color key="value" name="yellow"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="starSize">
+                                <real key="value" value="15"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="7Oy-vg-wc0" firstAttribute="trailing" secondItem="HR2-sO-ng6" secondAttribute="trailing" id="1hX-jc-yM3"/>
+                <constraint firstItem="7Oy-vg-wc0" firstAttribute="leading" secondItem="HR2-sO-ng6" secondAttribute="leading" id="FGi-xB-ry6"/>
+                <constraint firstItem="LGp-wz-RIp" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="FK6-Zc-dGi"/>
+                <constraint firstItem="LGp-wz-RIp" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="J0o-4v-KWE"/>
+                <constraint firstItem="HR2-sO-ng6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JWq-ic-s8m"/>
+                <constraint firstItem="7Oy-vg-wc0" firstAttribute="top" secondItem="HR2-sO-ng6" secondAttribute="bottom" constant="6" id="LPX-DE-Tm3"/>
+                <constraint firstAttribute="trailing" secondItem="HR2-sO-ng6" secondAttribute="trailing" id="aya-TV-nEg"/>
+                <constraint firstItem="HR2-sO-ng6" firstAttribute="top" secondItem="LGp-wz-RIp" secondAttribute="bottom" constant="15" id="iqY-3Q-I7W"/>
+                <constraint firstAttribute="trailing" secondItem="LGp-wz-RIp" secondAttribute="trailing" id="tGi-O8-lvo"/>
+                <constraint firstItem="Gke-LJ-Pcb" firstAttribute="top" secondItem="7Oy-vg-wc0" secondAttribute="bottom" constant="7" id="wlh-YZ-Xhs"/>
+                <constraint firstAttribute="bottom" secondItem="Gke-LJ-Pcb" secondAttribute="bottom" id="yGA-Ye-k4f"/>
+                <constraint firstItem="Gke-LJ-Pcb" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="zdi-zm-zxZ"/>
+            </constraints>
+            <size key="customSize" width="267" height="258"/>
+            <connections>
+                <outlet property="imgVehicle" destination="LGp-wz-RIp" id="oYJ-hP-4z2"/>
+                <outlet property="lblDesc" destination="7Oy-vg-wc0" id="HmD-jf-6wX"/>
+                <outlet property="lblTitle" destination="HR2-sO-ng6" id="rRh-8p-Xf7"/>
+                <outlet property="vwRating" destination="Gke-LJ-Pcb" id="CLq-5l-krk"/>
+            </connections>
+            <point key="canvasLocation" x="192.0289855072464" y="128.23660714285714"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="vehicleDummy" width="216" height="144"/>
+        <namedColor name="yellow">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

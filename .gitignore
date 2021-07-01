@@ -1,0 +1,14 @@
+# Pods folder
+Surfie_Dev/Podfile.lock
+Surfie_Dev/Pods
+Surfie_Dev/Toyota-Tsusho.xcworkspace
+
+
+git # Mac OS X
+*.DS_Store
+
+# Xcode
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+

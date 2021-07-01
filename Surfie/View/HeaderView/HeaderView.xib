@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView" customModule="Surfie" customModuleProvider="target">
+            <connections>
+                <outlet property="btnRight" destination="8bT-ga-7WV" id="99m-8o-X1d"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="vpr-Sq-8nc"/>
+                <outlet property="imgLeft" destination="0ie-WF-I0f" id="agL-UQ-jpO"/>
+                <outlet property="imgRight" destination="Alb-49-Fw4" id="Qmd-rL-Pyt"/>
+                <outlet property="lblTitle" destination="2dY-eP-vD4" id="f6x-r4-PxF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowRight" translatesAutoresizingMaskIntoConstraints="NO" id="0ie-WF-I0f">
+                    <rect key="frame" x="30" y="7" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="V8g-dj-G10"/>
+                        <constraint firstAttribute="width" constant="30" id="bKt-nr-6N2"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeI-aI-tO0">
+                    <rect key="frame" x="30" y="7" width="60" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="COk-so-T5Z"/>
+                        <constraint firstAttribute="height" constant="30" id="G3O-NS-jEo"/>
+                    </constraints>
+                    <connections>
+                        <action selector="btnLeftBarClicked:" destination="-1" eventType="touchUpInside" id="bwT-Mr-eAF"/>
+                    </connections>
+                </button>
+                <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Alb-49-Fw4">
+                    <rect key="frame" x="324" y="7" width="30" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="IZv-ad-M9l"/>
+                        <constraint firstAttribute="height" constant="30" id="pNv-h3-Uxw"/>
+                    </constraints>
+                </imageView>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8bT-ga-7WV">
+                    <rect key="frame" x="294" y="7" width="60" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="ByF-ha-aAj"/>
+                        <constraint firstAttribute="height" constant="30" id="cfJ-zX-6tN"/>
+                    </constraints>
+                    <connections>
+                        <action selector="btnRightBarClicked:" destination="-1" eventType="touchUpInside" id="Ra1-An-4wk"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dY-eP-vD4">
+                    <rect key="frame" x="30" y="47" width="324" height="41.5"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="34"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8bT-ga-7WV" secondAttribute="trailing" constant="30" id="2MQ-1a-5yr"/>
+                <constraint firstItem="0ie-WF-I0f" firstAttribute="top" secondItem="OeI-aI-tO0" secondAttribute="top" id="5k9-sS-2JY"/>
+                <constraint firstItem="OeI-aI-tO0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="7Nj-AF-qBu"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="2dY-eP-vD4" secondAttribute="bottom" constant="5.5" id="9XY-FS-PED"/>
+                <constraint firstItem="8bT-ga-7WV" firstAttribute="top" secondItem="OeI-aI-tO0" secondAttribute="top" id="DDE-vK-Vqm"/>
+                <constraint firstItem="Alb-49-Fw4" firstAttribute="top" secondItem="8bT-ga-7WV" secondAttribute="top" id="Ewf-O3-WAF"/>
+                <constraint firstItem="OeI-aI-tO0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="7" id="NiY-Zd-cId"/>
+                <constraint firstItem="2dY-eP-vD4" firstAttribute="leading" secondItem="OeI-aI-tO0" secondAttribute="leading" id="TBM-9z-PWM"/>
+                <constraint firstItem="2dY-eP-vD4" firstAttribute="top" secondItem="OeI-aI-tO0" secondAttribute="bottom" constant="10" id="TBO-MJ-kPW"/>
+                <constraint firstItem="Alb-49-Fw4" firstAttribute="trailing" secondItem="8bT-ga-7WV" secondAttribute="trailing" id="XoC-Ag-5OH"/>
+                <constraint firstItem="0ie-WF-I0f" firstAttribute="leading" secondItem="OeI-aI-tO0" secondAttribute="leading" id="q4O-uC-gm4"/>
+                <constraint firstItem="2dY-eP-vD4" firstAttribute="trailing" secondItem="8bT-ga-7WV" secondAttribute="trailing" id="qDv-WU-sPK"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="9XY-FS-PED"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="24.637681159420293" y="72.65625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="arrowRight" width="54" height="54"/>
+    </resources>
+</document>

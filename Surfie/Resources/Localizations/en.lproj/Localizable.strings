@@ -1,0 +1,57 @@
+/* 
+  Localizable.strings
+  Surfie
+
+  Created by Mahadev on 28/06/21.
+  
+*/
+
+//MARK: - [Common Text] -
+"SKIP" = "Skip";
+"START" = "START";
+"NEXT" = "Next";
+"LOGIN" = "Login";
+"PHONE_NO" = "Phone number";
+
+//MARK: - [ Side Menu ] -
+
+"Troy Malta" = "Troy Malta";
+"SURF MAP" = "SURF MAP";
+"Home" = "Home";
+"Payments" = "Payments";
+"Purchases historic" = "Purchases historic";
+"Notifications" = "Notifications";
+"Definitions and Profile" = "Definitions and Profile";
+"Invite friends" = "Invite friends";
+"Log out" = "Log out";
+
+//MARK: - [Login ] -
+"WELCOME_TO_SURFIE" = "Welcome to Surfie";
+"ADVENTURE_STARTS_HERE" = "The adventure starts here.";
+"START_NOW" = "Start now!";
+
+//MARK: - [OTP ] -
+"CODE_NOT_RECEIVED" = "I didn't receive the code";
+"ENTER_RECEIVED_CODE" = "Enter the code you received on your mobile phone.";
+
+//MARK: - [Tutorial ] -
+"IMMEDIATE_EQUIP_RENTAL" = "Immediate equipment rental";
+"FORGOT_EQUIP?_SOMEONE_PLACE&DELIVER" = "You are by the sea and you forgot your equipment? What do you think if someone goes to your place and delivers it.";
+
+"VAN_TENT_SURF" = "Caravans, tents and surf trips";
+"ESC_ROUTE?_NEW_SENSATION_PARTNER" = "How about escaping the routine? New experiences. New sensations… We have the best partners for this.";
+"EXPERIENCES" = "Experiences";
+"EXPERIENCE_NATURE_SUGGESTION" = "Experiences in nature fill the soul. We often don't know what to do or what exists. Check out our suggestions.";
+
+//MARK: - [Tab Bar ] -
+"RENT" = "Rent";
+"VEHICLES" = "Vehicles";
+"EXPERIENCE" = "Experience";
+
+//MARK: - [ Payment ] -
+"ADD_CARD" = "Add Card";
+"CARD_NO" = "Card number";
+"CARDS" = "Cards";
+
+//MARK: - [ Vehicles ] -
+"WHAT_U_NEED" = "What do you need?";

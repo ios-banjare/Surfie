@@ -1,0 +1,56 @@
+/* 
+  Localizable.strings
+  Surfie
+
+  Created by Mahadev on 28/06/21.
+  
+*/
+
+//MARK: - [Common Text] -
+
+"SKIP" = "Pular";
+"START" = "COMEÇARE";
+"NEXT" = "Seguinte";
+"LOGIN" = "Conecte Se";
+"PHONE_NO" = "Número de telefone";
+
+//MARK: - [ Side Menu ] -
+
+"Troy Malta" = "Troy Malta";
+"SURF MAP" = "SURF MAP";
+"Home" = "Casa";
+"Payments" = "Pagamentos";
+"Purchases historic" = "Histórico de Compras";
+"Notifications" = "Notificações";
+"Definitions and Profile" = "Definições e Perfil";
+"Invite friends" = "Convidar Amigos";
+"Log out" = "Sair";
+
+//MARK: - [Login ] -
+"WELCOME_TO_SURFIE" = "Bem vindo ao Surfie";
+"ADVENTURE_STARTS_HERE" = "A aventura começa aqui.";
+"START_NOW" = "Começa agora!";
+
+//MARK: - [OTP ] -
+"CODE_NOT_RECEIVED" = "Não recebi o códico";
+"ENTER_RECEIVED_CODE" = "Digita o códico que recebeste no teu telemóvel.";
+
+//MARK: - [Tutorial] -
+
+"IMMEDIATE_EQUIP_RENTAL" = "Aluguer de equipamento imediato";
+"FORGOT_EQUIP?_SOMEONE_PLACE&DELIVER" = "Estás ao pé do mar e esqueceste do equipamento? Que te parece se alguém for ao teu local e entregar.";
+
+"VAN_TENT_SURF" = "Caravanas, tendas e surf trips";
+"ESC_ROUTE?_NEW_SENSATION_PARTNER" = "E que tal fugir á rotina? Novas experiências. Novas sensações… Nós temos os melhores parceiros para isso.";
+"EXPERIENCES" = "Experiências";
+"EXPERIENCE_NATURE_SUGGESTION" = "Experiências na natureza enchem a alma. Muitas vezes não sabemos o que fazer nem o que existe. Vê as nossas sugestões.";
+
+
+//MARK: - [Tab Bar ] -
+"RENT" = "Alugar";
+"VEHICLES" = "Veículos";
+"EXPERIENCE" = "Experiência";
+
+
+//MARK: - [ Vehicles ] -
+"WHAT_U_NEED" = "O que você precisa?";

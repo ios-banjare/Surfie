@@ -1,0 +1,15 @@
+//
+//  AppConfig.xcconfig
+//  Toyota-Tsusho
+//
+//  Created by Encora on 05/01/21.
+//  Copyright © 2021 Encora. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+TT_APP_NAME = T-Drive
+TT_APP_BUNDLE = cloud.ttcsp.tdrive
+BASE_URL = https:/$()/testapi.ttcsp.cloud/servicediscovery/api/v3/ServiceDiscovery

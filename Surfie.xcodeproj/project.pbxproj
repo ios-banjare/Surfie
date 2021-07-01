@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F5848CB98556C15BBC53D3B /* Pods_Surfie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760656EDF0693255A67B82EF /* Pods_Surfie.framework */; };
+		DB25D2DF26887E91009661CB /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D29A26887E91009661CB /* UINavigationController+Extension.swift */; };
+		DB25D2E026887E91009661CB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D29B26887E91009661CB /* Extension.swift */; };
+		DB25D2E126887E91009661CB /* UIDevice+JailBroken.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D29C26887E91009661CB /* UIDevice+JailBroken.swift */; };
+		DB25D2E226887E91009661CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D29D26887E91009661CB /* AppDelegate.swift */; };
+		DB25D2E326887E91009661CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2A126887E91009661CB /* Assets.xcassets */; };
+		DB25D2E426887E91009661CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2A226887E91009661CB /* LaunchScreen.storyboard */; };
+		DB25D2E526887E91009661CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2A426887E91009661CB /* Main.storyboard */; };
+		DB25D2E626887E91009661CB /* Montserrat-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2A726887E91009661CB /* Montserrat-MediumItalic.otf */; };
+		DB25D2E726887E91009661CB /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2A826887E91009661CB /* Montserrat-Bold.otf */; };
+		DB25D2E826887E91009661CB /* Montserrat-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2A926887E91009661CB /* Montserrat-BlackItalic.otf */; };
+		DB25D2EA26887E91009661CB /* MontserratAlternates-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2AB26887E91009661CB /* MontserratAlternates-Black.otf */; };
+		DB25D2EB26887E91009661CB /* MontserratAlternates-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2AC26887E91009661CB /* MontserratAlternates-LightItalic.otf */; };
+		DB25D2EC26887E91009661CB /* MontserratAlternates-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2AD26887E91009661CB /* MontserratAlternates-Medium.otf */; };
+		DB25D2ED26887E91009661CB /* Montserrat-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2AE26887E91009661CB /* Montserrat-BoldItalic.otf */; };
+		DB25D2EE26887E91009661CB /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2AF26887E91009661CB /* Montserrat-Light.otf */; };
+		DB25D2EF26887E91009661CB /* Montserrat-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B026887E91009661CB /* Montserrat-ThinItalic.otf */; };
+		DB25D2F026887E91009661CB /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B126887E91009661CB /* Montserrat-Thin.otf */; };
+		DB25D2F126887E91009661CB /* MontserratAlternates-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B226887E91009661CB /* MontserratAlternates-MediumItalic.otf */; };
+		DB25D2F226887E91009661CB /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B326887E91009661CB /* Montserrat-ExtraLight.otf */; };
+		DB25D2F326887E91009661CB /* MontserratAlternates-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B426887E91009661CB /* MontserratAlternates-BlackItalic.otf */; };
+		DB25D2F426887E91009661CB /* MontserratAlternates-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B526887E91009661CB /* MontserratAlternates-Bold.otf */; };
+		DB25D2F526887E91009661CB /* MontserratAlternates-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B626887E91009661CB /* MontserratAlternates-ExtraLightItalic.otf */; };
+		DB25D2F626887E91009661CB /* MontserratAlternates-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B726887E91009661CB /* MontserratAlternates-Thin.otf */; };
+		DB25D2F726887E91009661CB /* Montserrat-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B826887E91009661CB /* Montserrat-LightItalic.otf */; };
+		DB25D2F826887E91009661CB /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2B926887E91009661CB /* Montserrat-Medium.otf */; };
+		DB25D2F926887E91009661CB /* MontserratAlternates-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2BA26887E91009661CB /* MontserratAlternates-SemiBoldItalic.otf */; };
+		DB25D2FA26887E91009661CB /* Montserrat-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2BB26887E91009661CB /* Montserrat-SemiBoldItalic.otf */; };
+		DB25D2FB26887E91009661CB /* Montserrat-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2BC26887E91009661CB /* Montserrat-ExtraBoldItalic.otf */; };
+		DB25D2FC26887E91009661CB /* Montserrat-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2BD26887E91009661CB /* Montserrat-Italic.otf */; };
+		DB25D2FD26887E91009661CB /* MontserratAlternates-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2BE26887E91009661CB /* MontserratAlternates-SemiBold.otf */; };
+		DB25D2FE26887E91009661CB /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2BF26887E91009661CB /* Montserrat-Regular.otf */; };
+		DB25D2FF26887E91009661CB /* MontserratAlternates-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C026887E91009661CB /* MontserratAlternates-ExtraBold.otf */; };
+		DB25D30026887E91009661CB /* MontserratAlternates-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C126887E91009661CB /* MontserratAlternates-BoldItalic.otf */; };
+		DB25D30126887E91009661CB /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C226887E91009661CB /* Montserrat-ExtraBold.otf */; };
+		DB25D30226887E91009661CB /* Montserrat-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C326887E91009661CB /* Montserrat-ExtraLightItalic.otf */; };
+		DB25D30326887E91009661CB /* MontserratAlternates-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C426887E91009661CB /* MontserratAlternates-Light.otf */; };
+		DB25D30426887E91009661CB /* MontserratAlternates-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C526887E91009661CB /* MontserratAlternates-ExtraLight.otf */; };
+		DB25D30526887E91009661CB /* MontserratAlternates-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C626887E91009661CB /* MontserratAlternates-Regular.otf */; };
+		DB25D30626887E91009661CB /* MontserratAlternates-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C726887E91009661CB /* MontserratAlternates-ThinItalic.otf */; };
+		DB25D30726887E91009661CB /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C826887E91009661CB /* Montserrat-Black.otf */; };
+		DB25D30826887E91009661CB /* MontserratAlternates-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2C926887E91009661CB /* MontserratAlternates-ExtraBoldItalic.otf */; };
+		DB25D30926887E91009661CB /* MontserratAlternates-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2CA26887E91009661CB /* MontserratAlternates-Italic.otf */; };
+		DB25D30A26887E91009661CB /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2CB26887E91009661CB /* Montserrat-SemiBold.otf */; };
+		DB25D30C26887E91009661CB /* TutorialCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB25D2CE26887E91009661CB /* TutorialCollectionViewCell.xib */; };
+		DB25D30D26887E91009661CB /* TutorialCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2CF26887E91009661CB /* TutorialCollectionViewCell.swift */; };
+		DB25D30E26887E91009661CB /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2D126887E91009661CB /* TutorialViewController.swift */; };
+		DB25D30F26887E91009661CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2D226887E91009661CB /* LoginViewController.swift */; };
+		DB25D31026887E91009661CB /* TimeComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2D426887E91009661CB /* TimeComponent.swift */; };
+		DB25D31126887E91009661CB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2D526887E91009661CB /* Constants.swift */; };
+		DB25D31226887E91009661CB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2D626887E91009661CB /* BaseViewController.swift */; };
+		DB25D31326887E91009661CB /* DateFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2D726887E91009661CB /* DateFormat.swift */; };
+		DB25D31426887E91009661CB /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2D826887E91009661CB /* AppColors.swift */; };
+		DB25D31526887E91009661CB /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2D926887E91009661CB /* Validator.swift */; };
+		DB25D31626887E91009661CB /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2DA26887E91009661CB /* Common.swift */; };
+		DB25D31826887E91009661CB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2DC26887E91009661CB /* CustomTextField.swift */; };
+		DB25D31926887E91009661CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2DE26887E91009661CB /* ViewController.swift */; };
+		DB25D31C268886F0009661CB /* AppConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DB25D31B268886EF009661CB /* AppConfig.xcconfig */; };
+		DB6C5836268A0DB7002089A2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6C5838268A0DB7002089A2 /* Localizable.strings */; };
+		DB6C583E268A0F40002089A2 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C583C268A0F3F002089A2 /* FooterView.swift */; };
+		DB6C583F268A0F40002089A2 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6C583D268A0F3F002089A2 /* FooterView.xib */; };
+		DB86294B268B3BB5004FF97A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86294A268B3BB5004FF97A /* HeaderView.swift */; };
+		DB86294D268B3BC7004FF97A /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB86294C268B3BC7004FF97A /* HeaderView.xib */; };
+		DB862950268B7E94004FF97A /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB86294F268B7E94004FF97A /* Defaults.swift */; };
+		DB862952268B81A0004FF97A /* VehiclesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB862951268B81A0004FF97A /* VehiclesViewController.swift */; };
+		DB862954268B81E9004FF97A /* ExperiencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB862953268B81E9004FF97A /* ExperiencesViewController.swift */; };
+		DB862956268B82BD004FF97A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB862955268B82BD004FF97A /* DashboardViewController.swift */; };
+		DB8C45872689B04E003410B6 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8C45862689B04E003410B6 /* OTPViewController.swift */; };
+		DBD961EA268C3FD0003D734B /* SecondaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961E9268C3FD0003D734B /* SecondaryHeaderView.swift */; };
+		DBD961EC268C3FDC003D734B /* SecondaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD961EB268C3FDC003D734B /* SecondaryHeaderView.xib */; };
+		DBD961F1268C5340003D734B /* VehiclesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961EF268C5340003D734B /* VehiclesCollectionViewCell.swift */; };
+		DBD961F2268C5340003D734B /* VehiclesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD961F0268C5340003D734B /* VehiclesCollectionViewCell.xib */; };
+		DBD961F4268CA40D003D734B /* VehiclesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961F3268CA40D003D734B /* VehiclesTableViewCell.swift */; };
+		DBD961F6268CCAB0003D734B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961F5268CCAB0003D734B /* MenuViewController.swift */; };
+		DBD961F8268CCABC003D734B /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961F7268CCABC003D734B /* SlideMenuController.swift */; };
+		DBD961FC268CCBB0003D734B /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD961FA268CCBB0003D734B /* MenuTableViewCell.xib */; };
+		DBD961FD268CCBB0003D734B /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961FB268CCBB0003D734B /* MenuTableViewCell.swift */; };
+		DBD96201268CCC43003D734B /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961FE268CCC42003D734B /* UIApplicationExtension.swift */; };
+		DBD96202268CCC43003D734B /* UICollectionViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961FF268CCC42003D734B /* UICollectionViewExtension.swift */; };
+		DBD96203268CCC43003D734B /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD96200268CCC43003D734B /* UITableViewExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		225C111BB9325DE36B5A5268 /* Pods-Surfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Surfie.debug.xcconfig"; path = "Target Support Files/Pods-Surfie/Pods-Surfie.debug.xcconfig"; sourceTree = "<group>"; };
+		57B3DC3A16841199E77B4C19 /* Pods-Surfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Surfie.release.xcconfig"; path = "Target Support Files/Pods-Surfie/Pods-Surfie.release.xcconfig"; sourceTree = "<group>"; };
+		760656EDF0693255A67B82EF /* Pods_Surfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Surfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB25D28026887CA1009661CB /* Surfie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surfie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB25D29726887E90009661CB /* Surfie-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Surfie-Bridging-Header.h"; sourceTree = "<group>"; };
+		DB25D29A26887E91009661CB /* UINavigationController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Extension.swift"; sourceTree = "<group>"; };
+		DB25D29B26887E91009661CB /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		DB25D29C26887E91009661CB /* UIDevice+JailBroken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+JailBroken.swift"; sourceTree = "<group>"; };
+		DB25D29D26887E91009661CB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB25D2A126887E91009661CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB25D2A326887E91009661CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB25D2A526887E91009661CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB25D2A726887E91009661CB /* Montserrat-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.otf"; sourceTree = "<group>"; };
+		DB25D2A826887E91009661CB /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
+		DB25D2A926887E91009661CB /* Montserrat-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.otf"; sourceTree = "<group>"; };
+		DB25D2AA26887E91009661CB /* SIL Open Font License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SIL Open Font License.txt"; sourceTree = "<group>"; };
+		DB25D2AB26887E91009661CB /* MontserratAlternates-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Black.otf"; sourceTree = "<group>"; };
+		DB25D2AC26887E91009661CB /* MontserratAlternates-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-LightItalic.otf"; sourceTree = "<group>"; };
+		DB25D2AD26887E91009661CB /* MontserratAlternates-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Medium.otf"; sourceTree = "<group>"; };
+		DB25D2AE26887E91009661CB /* Montserrat-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.otf"; sourceTree = "<group>"; };
+		DB25D2AF26887E91009661CB /* Montserrat-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.otf"; sourceTree = "<group>"; };
+		DB25D2B026887E91009661CB /* Montserrat-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.otf"; sourceTree = "<group>"; };
+		DB25D2B126887E91009661CB /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		DB25D2B226887E91009661CB /* MontserratAlternates-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-MediumItalic.otf"; sourceTree = "<group>"; };
+		DB25D2B326887E91009661CB /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		DB25D2B426887E91009661CB /* MontserratAlternates-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-BlackItalic.otf"; sourceTree = "<group>"; };
+		DB25D2B526887E91009661CB /* MontserratAlternates-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Bold.otf"; sourceTree = "<group>"; };
+		DB25D2B626887E91009661CB /* MontserratAlternates-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		DB25D2B726887E91009661CB /* MontserratAlternates-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Thin.otf"; sourceTree = "<group>"; };
+		DB25D2B826887E91009661CB /* Montserrat-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.otf"; sourceTree = "<group>"; };
+		DB25D2B926887E91009661CB /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		DB25D2BA26887E91009661CB /* MontserratAlternates-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		DB25D2BB26887E91009661CB /* Montserrat-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		DB25D2BC26887E91009661CB /* Montserrat-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		DB25D2BD26887E91009661CB /* Montserrat-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.otf"; sourceTree = "<group>"; };
+		DB25D2BE26887E91009661CB /* MontserratAlternates-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-SemiBold.otf"; sourceTree = "<group>"; };
+		DB25D2BF26887E91009661CB /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		DB25D2C026887E91009661CB /* MontserratAlternates-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBold.otf"; sourceTree = "<group>"; };
+		DB25D2C126887E91009661CB /* MontserratAlternates-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-BoldItalic.otf"; sourceTree = "<group>"; };
+		DB25D2C226887E91009661CB /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		DB25D2C326887E91009661CB /* Montserrat-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		DB25D2C426887E91009661CB /* MontserratAlternates-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Light.otf"; sourceTree = "<group>"; };
+		DB25D2C526887E91009661CB /* MontserratAlternates-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraLight.otf"; sourceTree = "<group>"; };
+		DB25D2C626887E91009661CB /* MontserratAlternates-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Regular.otf"; sourceTree = "<group>"; };
+		DB25D2C726887E91009661CB /* MontserratAlternates-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ThinItalic.otf"; sourceTree = "<group>"; };
+		DB25D2C826887E91009661CB /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
+		DB25D2C926887E91009661CB /* MontserratAlternates-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		DB25D2CA26887E91009661CB /* MontserratAlternates-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MontserratAlternates-Italic.otf"; sourceTree = "<group>"; };
+		DB25D2CB26887E91009661CB /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		DB25D2CC26887E91009661CB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB25D2CE26887E91009661CB /* TutorialCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TutorialCollectionViewCell.xib; sourceTree = "<group>"; };
+		DB25D2CF26887E91009661CB /* TutorialCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB25D2D126887E91009661CB /* TutorialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		DB25D2D226887E91009661CB /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DB25D2D426887E91009661CB /* TimeComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeComponent.swift; sourceTree = "<group>"; };
+		DB25D2D526887E91009661CB /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DB25D2D626887E91009661CB /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DB25D2D726887E91009661CB /* DateFormat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormat.swift; sourceTree = "<group>"; };
+		DB25D2D826887E91009661CB /* AppColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		DB25D2D926887E91009661CB /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		DB25D2DA26887E91009661CB /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		DB25D2DC26887E91009661CB /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DB25D2DE26887E91009661CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DB25D31B268886EF009661CB /* AppConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
+		DB6C5837268A0DB7002089A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DB6C583A268A0E43002089A2 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		DB6C583C268A0F3F002089A2 /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		DB6C583D268A0F3F002089A2 /* FooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		DB86294A268B3BB5004FF97A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DB86294C268B3BC7004FF97A /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		DB86294F268B7E94004FF97A /* Defaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		DB862951268B81A0004FF97A /* VehiclesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesViewController.swift; sourceTree = "<group>"; };
+		DB862953268B81E9004FF97A /* ExperiencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesViewController.swift; sourceTree = "<group>"; };
+		DB862955268B82BD004FF97A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		DB8C45862689B04E003410B6 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		DBD961E9268C3FD0003D734B /* SecondaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryHeaderView.swift; sourceTree = "<group>"; };
+		DBD961EB268C3FDC003D734B /* SecondaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondaryHeaderView.xib; sourceTree = "<group>"; };
+		DBD961EF268C5340003D734B /* VehiclesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesCollectionViewCell.swift; sourceTree = "<group>"; };
+		DBD961F0268C5340003D734B /* VehiclesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VehiclesCollectionViewCell.xib; sourceTree = "<group>"; };
+		DBD961F3268CA40D003D734B /* VehiclesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesTableViewCell.swift; sourceTree = "<group>"; };
+		DBD961F5268CCAB0003D734B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		DBD961F7268CCABC003D734B /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		DBD961FA268CCBB0003D734B /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		DBD961FB268CCBB0003D734B /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		DBD961FE268CCC42003D734B /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
+		DBD961FF268CCC42003D734B /* UICollectionViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewExtension.swift; sourceTree = "<group>"; };
+		DBD96200268CCC43003D734B /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB25D27D26887CA1009661CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F5848CB98556C15BBC53D3B /* Pods_Surfie.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BE0C5E3D05943A9A7219B1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				225C111BB9325DE36B5A5268 /* Pods-Surfie.debug.xcconfig */,
+				57B3DC3A16841199E77B4C19 /* Pods-Surfie.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2CD2A75061EC3DD86E7EBFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				760656EDF0693255A67B82EF /* Pods_Surfie.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB25D27726887CA1009661CB = {
+			isa = PBXGroup;
+			children = (
+				DB25D28226887CA1009661CB /* Surfie */,
+				DB25D28126887CA1009661CB /* Products */,
+				0BE0C5E3D05943A9A7219B1A /* Pods */,
+				C2CD2A75061EC3DD86E7EBFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DB25D28126887CA1009661CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB25D28026887CA1009661CB /* Surfie.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB25D28226887CA1009661CB /* Surfie */ = {
+			isa = PBXGroup;
+			children = (
+				DB25D29D26887E91009661CB /* AppDelegate.swift */,
+				DB25D2D026887E91009661CB /* Controller */,
+				DB25D29926887E91009661CB /* Extension */,
+				DB25D2D326887E91009661CB /* Helper */,
+				DB25D2DD26887E91009661CB /* Model */,
+				DB25D29E26887E91009661CB /* Resources */,
+				DB25D2CD26887E91009661CB /* View */,
+				DB25D2DE26887E91009661CB /* ViewController.swift */,
+				DB25D29726887E90009661CB /* Surfie-Bridging-Header.h */,
+			);
+			path = Surfie;
+			sourceTree = "<group>";
+		};
+		DB25D29926887E91009661CB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DB25D29A26887E91009661CB /* UINavigationController+Extension.swift */,
+				DB25D29B26887E91009661CB /* Extension.swift */,
+				DBD961FE268CCC42003D734B /* UIApplicationExtension.swift */,
+				DBD961FF268CCC42003D734B /* UICollectionViewExtension.swift */,
+				DBD96200268CCC43003D734B /* UITableViewExtension.swift */,
+				DB25D29C26887E91009661CB /* UIDevice+JailBroken.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		DB25D29E26887E91009661CB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB25D29F26887E91009661CB /* Configurations */,
+				DB25D2A026887E91009661CB /* Localizations */,
+				DB25D2A126887E91009661CB /* Assets.xcassets */,
+				DB25D2A226887E91009661CB /* LaunchScreen.storyboard */,
+				DB25D2A426887E91009661CB /* Main.storyboard */,
+				DB25D2A626887E91009661CB /* Fonts */,
+				DB25D2CC26887E91009661CB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB25D29F26887E91009661CB /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				DB25D31B268886EF009661CB /* AppConfig.xcconfig */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		DB25D2A026887E91009661CB /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				DB6C5838268A0DB7002089A2 /* Localizable.strings */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		DB25D2A626887E91009661CB /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DB25D2A726887E91009661CB /* Montserrat-MediumItalic.otf */,
+				DB25D2A826887E91009661CB /* Montserrat-Bold.otf */,
+				DB25D2A926887E91009661CB /* Montserrat-BlackItalic.otf */,
+				DB25D2AA26887E91009661CB /* SIL Open Font License.txt */,
+				DB25D2AB26887E91009661CB /* MontserratAlternates-Black.otf */,
+				DB25D2AC26887E91009661CB /* MontserratAlternates-LightItalic.otf */,
+				DB25D2AD26887E91009661CB /* MontserratAlternates-Medium.otf */,
+				DB25D2AE26887E91009661CB /* Montserrat-BoldItalic.otf */,
+				DB25D2AF26887E91009661CB /* Montserrat-Light.otf */,
+				DB25D2B026887E91009661CB /* Montserrat-ThinItalic.otf */,
+				DB25D2B126887E91009661CB /* Montserrat-Thin.otf */,
+				DB25D2B226887E91009661CB /* MontserratAlternates-MediumItalic.otf */,
+				DB25D2B326887E91009661CB /* Montserrat-ExtraLight.otf */,
+				DB25D2B426887E91009661CB /* MontserratAlternates-BlackItalic.otf */,
+				DB25D2B526887E91009661CB /* MontserratAlternates-Bold.otf */,
+				DB25D2B626887E91009661CB /* MontserratAlternates-ExtraLightItalic.otf */,
+				DB25D2B726887E91009661CB /* MontserratAlternates-Thin.otf */,
+				DB25D2B826887E91009661CB /* Montserrat-LightItalic.otf */,
+				DB25D2B926887E91009661CB /* Montserrat-Medium.otf */,
+				DB25D2BA26887E91009661CB /* MontserratAlternates-SemiBoldItalic.otf */,
+				DB25D2BB26887E91009661CB /* Montserrat-SemiBoldItalic.otf */,
+				DB25D2BC26887E91009661CB /* Montserrat-ExtraBoldItalic.otf */,
+				DB25D2BD26887E91009661CB /* Montserrat-Italic.otf */,
+				DB25D2BE26887E91009661CB /* MontserratAlternates-SemiBold.otf */,
+				DB25D2BF26887E91009661CB /* Montserrat-Regular.otf */,
+				DB25D2C026887E91009661CB /* MontserratAlternates-ExtraBold.otf */,
+				DB25D2C126887E91009661CB /* MontserratAlternates-BoldItalic.otf */,
+				DB25D2C226887E91009661CB /* Montserrat-ExtraBold.otf */,
+				DB25D2C326887E91009661CB /* Montserrat-ExtraLightItalic.otf */,
+				DB25D2C426887E91009661CB /* MontserratAlternates-Light.otf */,
+				DB25D2C526887E91009661CB /* MontserratAlternates-ExtraLight.otf */,
+				DB25D2C626887E91009661CB /* MontserratAlternates-Regular.otf */,
+				DB25D2C726887E91009661CB /* MontserratAlternates-ThinItalic.otf */,
+				DB25D2C826887E91009661CB /* Montserrat-Black.otf */,
+				DB25D2C926887E91009661CB /* MontserratAlternates-ExtraBoldItalic.otf */,
+				DB25D2CA26887E91009661CB /* MontserratAlternates-Italic.otf */,
+				DB25D2CB26887E91009661CB /* Montserrat-SemiBold.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DB25D2CD26887E91009661CB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBD961ED268C530D003D734B /* CollectionCells */,
+				DBD961EE268C530D003D734B /* TableCells */,
+				DB86294E268B3BE0004FF97A /* HeaderView */,
+				DB6C583B268A0F3F002089A2 /* FooterView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB25D2D026887E91009661CB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB25D2D126887E91009661CB /* TutorialViewController.swift */,
+				DB8C45862689B04E003410B6 /* OTPViewController.swift */,
+				DBD961F5268CCAB0003D734B /* MenuViewController.swift */,
+				DB25D2D226887E91009661CB /* LoginViewController.swift */,
+				DB862951268B81A0004FF97A /* VehiclesViewController.swift */,
+				DB862953268B81E9004FF97A /* ExperiencesViewController.swift */,
+				DB862955268B82BD004FF97A /* DashboardViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB25D2D326887E91009661CB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				DB86294F268B7E94004FF97A /* Defaults.swift */,
+				DB25D2D426887E91009661CB /* TimeComponent.swift */,
+				DB25D2D526887E91009661CB /* Constants.swift */,
+				DBD961F7268CCABC003D734B /* SlideMenuController.swift */,
+				DB25D2D626887E91009661CB /* BaseViewController.swift */,
+				DB25D2D726887E91009661CB /* DateFormat.swift */,
+				DB25D2D826887E91009661CB /* AppColors.swift */,
+				DB25D2D926887E91009661CB /* Validator.swift */,
+				DB25D2DA26887E91009661CB /* Common.swift */,
+				DB25D2DC26887E91009661CB /* CustomTextField.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		DB25D2DD26887E91009661CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB6C583B268A0F3F002089A2 /* FooterView */ = {
+			isa = PBXGroup;
+			children = (
+				DB6C583C268A0F3F002089A2 /* FooterView.swift */,
+				DB6C583D268A0F3F002089A2 /* FooterView.xib */,
+			);
+			path = FooterView;
+			sourceTree = "<group>";
+		};
+		DB86294E268B3BE0004FF97A /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				DB86294A268B3BB5004FF97A /* HeaderView.swift */,
+				DB86294C268B3BC7004FF97A /* HeaderView.xib */,
+				DBD961E9268C3FD0003D734B /* SecondaryHeaderView.swift */,
+				DBD961EB268C3FDC003D734B /* SecondaryHeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		DBD961ED268C530D003D734B /* CollectionCells */ = {
+			isa = PBXGroup;
+			children = (
+				DB25D2CE26887E91009661CB /* TutorialCollectionViewCell.xib */,
+				DB25D2CF26887E91009661CB /* TutorialCollectionViewCell.swift */,
+				DBD961EF268C5340003D734B /* VehiclesCollectionViewCell.swift */,
+				DBD961F0268C5340003D734B /* VehiclesCollectionViewCell.xib */,
+			);
+			path = CollectionCells;
+			sourceTree = "<group>";
+		};
+		DBD961EE268C530D003D734B /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				DBD961F9268CCBB0003D734B /* MenuCell */,
+				DBD961F3268CA40D003D734B /* VehiclesTableViewCell.swift */,
+			);
+			path = TableCells;
+			sourceTree = "<group>";
+		};
+		DBD961F9268CCBB0003D734B /* MenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				DBD961FA268CCBB0003D734B /* MenuTableViewCell.xib */,
+				DBD961FB268CCBB0003D734B /* MenuTableViewCell.swift */,
+			);
+			path = MenuCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB25D27F26887CA1009661CB /* Surfie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB25D29426887CA2009661CB /* Build configuration list for PBXNativeTarget "Surfie" */;
+			buildPhases = (
+				FB50BCC0346744F77CE81FD1 /* [CP] Check Pods Manifest.lock */,
+				DB25D27C26887CA1009661CB /* Sources */,
+				DB25D27D26887CA1009661CB /* Frameworks */,
+				DB25D27E26887CA1009661CB /* Resources */,
+				AB6C9CF67EAC49BABE41CB25 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Surfie;
+			productName = Surfie;
+			productReference = DB25D28026887CA1009661CB /* Surfie.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB25D27826887CA1009661CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					DB25D27F26887CA1009661CB = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+				};
+			};
+			buildConfigurationList = DB25D27B26887CA1009661CB /* Build configuration list for PBXProject "Surfie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"pt-PT",
+			);
+			mainGroup = DB25D27726887CA1009661CB;
+			productRefGroup = DB25D28126887CA1009661CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB25D27F26887CA1009661CB /* Surfie */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB25D27E26887CA1009661CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB25D2FF26887E91009661CB /* MontserratAlternates-ExtraBold.otf in Resources */,
+				DB25D30126887E91009661CB /* Montserrat-ExtraBold.otf in Resources */,
+				DB25D30726887E91009661CB /* Montserrat-Black.otf in Resources */,
+				DB86294D268B3BC7004FF97A /* HeaderView.xib in Resources */,
+				DB25D30526887E91009661CB /* MontserratAlternates-Regular.otf in Resources */,
+				DB25D2EA26887E91009661CB /* MontserratAlternates-Black.otf in Resources */,
+				DB25D30226887E91009661CB /* Montserrat-ExtraLightItalic.otf in Resources */,
+				DB25D2E726887E91009661CB /* Montserrat-Bold.otf in Resources */,
+				DB25D2F326887E91009661CB /* MontserratAlternates-BlackItalic.otf in Resources */,
+				DB25D30A26887E91009661CB /* Montserrat-SemiBold.otf in Resources */,
+				DB25D2E526887E91009661CB /* Main.storyboard in Resources */,
+				DB25D2ED26887E91009661CB /* Montserrat-BoldItalic.otf in Resources */,
+				DB25D30626887E91009661CB /* MontserratAlternates-ThinItalic.otf in Resources */,
+				DB25D2EF26887E91009661CB /* Montserrat-ThinItalic.otf in Resources */,
+				DB25D2EC26887E91009661CB /* MontserratAlternates-Medium.otf in Resources */,
+				DB25D2F126887E91009661CB /* MontserratAlternates-MediumItalic.otf in Resources */,
+				DB25D2F226887E91009661CB /* Montserrat-ExtraLight.otf in Resources */,
+				DB25D2E826887E91009661CB /* Montserrat-BlackItalic.otf in Resources */,
+				DB25D2F826887E91009661CB /* Montserrat-Medium.otf in Resources */,
+				DBD961EC268C3FDC003D734B /* SecondaryHeaderView.xib in Resources */,
+				DB25D2F526887E91009661CB /* MontserratAlternates-ExtraLightItalic.otf in Resources */,
+				DB25D31C268886F0009661CB /* AppConfig.xcconfig in Resources */,
+				DB25D30826887E91009661CB /* MontserratAlternates-ExtraBoldItalic.otf in Resources */,
+				DB25D2EB26887E91009661CB /* MontserratAlternates-LightItalic.otf in Resources */,
+				DB25D2FC26887E91009661CB /* Montserrat-Italic.otf in Resources */,
+				DB25D30C26887E91009661CB /* TutorialCollectionViewCell.xib in Resources */,
+				DB25D2F726887E91009661CB /* Montserrat-LightItalic.otf in Resources */,
+				DB25D2F026887E91009661CB /* Montserrat-Thin.otf in Resources */,
+				DB25D2F626887E91009661CB /* MontserratAlternates-Thin.otf in Resources */,
+				DBD961FC268CCBB0003D734B /* MenuTableViewCell.xib in Resources */,
+				DBD961F2268C5340003D734B /* VehiclesCollectionViewCell.xib in Resources */,
+				DB25D30326887E91009661CB /* MontserratAlternates-Light.otf in Resources */,
+				DB25D2FB26887E91009661CB /* Montserrat-ExtraBoldItalic.otf in Resources */,
+				DB25D2FE26887E91009661CB /* Montserrat-Regular.otf in Resources */,
+				DB25D2E626887E91009661CB /* Montserrat-MediumItalic.otf in Resources */,
+				DB6C5836268A0DB7002089A2 /* Localizable.strings in Resources */,
+				DB25D2E326887E91009661CB /* Assets.xcassets in Resources */,
+				DB25D2E426887E91009661CB /* LaunchScreen.storyboard in Resources */,
+				DB25D30426887E91009661CB /* MontserratAlternates-ExtraLight.otf in Resources */,
+				DB25D30026887E91009661CB /* MontserratAlternates-BoldItalic.otf in Resources */,
+				DB25D2F426887E91009661CB /* MontserratAlternates-Bold.otf in Resources */,
+				DB25D30926887E91009661CB /* MontserratAlternates-Italic.otf in Resources */,
+				DB6C583F268A0F40002089A2 /* FooterView.xib in Resources */,
+				DB25D2FA26887E91009661CB /* Montserrat-SemiBoldItalic.otf in Resources */,
+				DB25D2FD26887E91009661CB /* MontserratAlternates-SemiBold.otf in Resources */,
+				DB25D2F926887E91009661CB /* MontserratAlternates-SemiBoldItalic.otf in Resources */,
+				DB25D2EE26887E91009661CB /* Montserrat-Light.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB6C9CF67EAC49BABE41CB25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Surfie/Pods-Surfie-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Surfie/Pods-Surfie-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Surfie/Pods-Surfie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB50BCC0346744F77CE81FD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Surfie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB25D27C26887CA1009661CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB862954268B81E9004FF97A /* ExperiencesViewController.swift in Sources */,
+				DB862956268B82BD004FF97A /* DashboardViewController.swift in Sources */,
+				DB25D31026887E91009661CB /* TimeComponent.swift in Sources */,
+				DB25D30F26887E91009661CB /* LoginViewController.swift in Sources */,
+				DBD961F1268C5340003D734B /* VehiclesCollectionViewCell.swift in Sources */,
+				DB25D2E226887E91009661CB /* AppDelegate.swift in Sources */,
+				DB6C583E268A0F40002089A2 /* FooterView.swift in Sources */,
+				DB25D2DF26887E91009661CB /* UINavigationController+Extension.swift in Sources */,
+				DB25D31826887E91009661CB /* CustomTextField.swift in Sources */,
+				DB86294B268B3BB5004FF97A /* HeaderView.swift in Sources */,
+				DBD961FD268CCBB0003D734B /* MenuTableViewCell.swift in Sources */,
+				DB25D31526887E91009661CB /* Validator.swift in Sources */,
+				DBD96201268CCC43003D734B /* UIApplicationExtension.swift in Sources */,
+				DB25D2E026887E91009661CB /* Extension.swift in Sources */,
+				DB25D31626887E91009661CB /* Common.swift in Sources */,
+				DB25D31226887E91009661CB /* BaseViewController.swift in Sources */,
+				DB25D31926887E91009661CB /* ViewController.swift in Sources */,
+				DB25D30D26887E91009661CB /* TutorialCollectionViewCell.swift in Sources */,
+				DBD961F4268CA40D003D734B /* VehiclesTableViewCell.swift in Sources */,
+				DBD96203268CCC43003D734B /* UITableViewExtension.swift in Sources */,
+				DB25D30E26887E91009661CB /* TutorialViewController.swift in Sources */,
+				DBD961EA268C3FD0003D734B /* SecondaryHeaderView.swift in Sources */,
+				DB25D2E126887E91009661CB /* UIDevice+JailBroken.swift in Sources */,
+				DB862952268B81A0004FF97A /* VehiclesViewController.swift in Sources */,
+				DB25D31426887E91009661CB /* AppColors.swift in Sources */,
+				DBD961F8268CCABC003D734B /* SlideMenuController.swift in Sources */,
+				DBD96202268CCC43003D734B /* UICollectionViewExtension.swift in Sources */,
+				DBD961F6268CCAB0003D734B /* MenuViewController.swift in Sources */,
+				DB8C45872689B04E003410B6 /* OTPViewController.swift in Sources */,
+				DB862950268B7E94004FF97A /* Defaults.swift in Sources */,
+				DB25D31326887E91009661CB /* DateFormat.swift in Sources */,
+				DB25D31126887E91009661CB /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB25D2A226887E91009661CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB25D2A326887E91009661CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DB25D2A426887E91009661CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB25D2A526887E91009661CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB6C5838268A0DB7002089A2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB6C5837268A0DB7002089A2 /* en */,
+				DB6C583A268A0E43002089A2 /* pt-PT */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB25D29226887CA2009661CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DB25D29326887CA2009661CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB25D29526887CA2009661CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 225C111BB9325DE36B5A5268 /* Pods-Surfie.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Surfie/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surfie.app.Surfie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Surfie/Surfie-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB25D29626887CA2009661CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B3DC3A16841199E77B4C19 /* Pods-Surfie.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Surfie/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.surfie.app.Surfie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Surfie/Surfie-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB25D27B26887CA1009661CB /* Build configuration list for PBXProject "Surfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB25D29226887CA2009661CB /* Debug */,
+				DB25D29326887CA2009661CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB25D29426887CA2009661CB /* Build configuration list for PBXNativeTarget "Surfie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB25D29526887CA2009661CB /* Debug */,
+				DB25D29626887CA2009661CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB25D27826887CA1009661CB /* Project object */;
+}

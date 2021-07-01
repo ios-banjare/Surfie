@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="TutorialCollectionViewCell" id="gTV-IL-0wX" customClass="TutorialCollectionViewCell" customModule="Surfie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="487"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="487"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tPJ-qx-WsJ">
+                        <rect key="frame" x="40" y="192.5" width="294" height="105"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="110" id="b9c-d0-RpU"/>
+                        </constraints>
+                        <string key="text">Aluguer de equipamento
+imediato</string>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="30"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yjw-yo-CSx">
+                        <rect key="frame" x="137" y="437" width="100" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="6dy-fd-jEJ"/>
+                            <constraint firstAttribute="width" constant="100" id="ajc-n4-90Q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <state key="normal" title="Skip">
+                            <color key="titleColor" red="0.74509803921568629" green="0.76078431372549016" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="skipContinueSelection:" destination="gTV-IL-0wX" eventType="touchUpInside" id="gxK-4D-r1w"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLx-ZV-m4R">
+                        <rect key="frame" x="40" y="331.5" width="294" height="79.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="100" id="WqY-p1-78Z"/>
+                        </constraints>
+                        <string key="text">Estás ao pé do mar e esqueceste do equipamento? Que te parece se alguém for ao
+teu local e entregar.</string>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cim-pW-d76">
+                        <rect key="frame" x="40" y="437" width="294" height="50"/>
+                        <color key="backgroundColor" name="skyBlue"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Imt-S5-KBM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                        <state key="normal" title="COMEÇAR">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <connections>
+                            <action selector="skipContinueSelection:" destination="gTV-IL-0wX" eventType="touchUpInside" id="psH-Z2-4m0"/>
+                        </connections>
+                    </button>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="C1r-Xc-66d">
+                        <rect key="frame" x="132" y="7.5" width="110" height="110"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="110" id="Muo-G0-yU1"/>
+                            <constraint firstAttribute="height" constant="110" id="W1M-p9-9cy"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Yjw-yo-CSx" firstAttribute="top" secondItem="bLx-ZV-m4R" secondAttribute="bottom" constant="26" id="3xH-LL-1qz"/>
+                <constraint firstItem="tPJ-qx-WsJ" firstAttribute="trailing" secondItem="bLx-ZV-m4R" secondAttribute="trailing" id="D6T-gq-yfr"/>
+                <constraint firstItem="tPJ-qx-WsJ" firstAttribute="leading" secondItem="bLx-ZV-m4R" secondAttribute="leading" id="N03-3F-Tdp"/>
+                <constraint firstAttribute="bottom" secondItem="Cim-pW-d76" secondAttribute="bottom" id="TRu-wU-gvv"/>
+                <constraint firstItem="bLx-ZV-m4R" firstAttribute="top" secondItem="tPJ-qx-WsJ" secondAttribute="bottom" constant="34" id="e6J-fe-uE5"/>
+                <constraint firstItem="C1r-Xc-66d" firstAttribute="top" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="eoC-Iy-kyR"/>
+                <constraint firstItem="Cim-pW-d76" firstAttribute="trailing" secondItem="bLx-ZV-m4R" secondAttribute="trailing" id="ifc-fF-lv4"/>
+                <constraint firstAttribute="bottom" secondItem="Yjw-yo-CSx" secondAttribute="bottom" constant="20" id="itV-UG-fXO"/>
+                <constraint firstItem="tPJ-qx-WsJ" firstAttribute="top" secondItem="C1r-Xc-66d" secondAttribute="bottom" constant="75" id="jHA-fH-MzJ"/>
+                <constraint firstAttribute="trailing" secondItem="bLx-ZV-m4R" secondAttribute="trailing" constant="40" id="ra3-ys-6bj"/>
+                <constraint firstItem="C1r-Xc-66d" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="sPw-j3-VRS"/>
+                <constraint firstItem="bLx-ZV-m4R" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="40" id="whF-op-FgE"/>
+                <constraint firstItem="C1r-Xc-66d" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wqO-pQ-dFj"/>
+                <constraint firstItem="Yjw-yo-CSx" firstAttribute="centerX" secondItem="C1r-Xc-66d" secondAttribute="centerX" id="y9a-hO-lrO"/>
+                <constraint firstItem="Cim-pW-d76" firstAttribute="leading" secondItem="bLx-ZV-m4R" secondAttribute="leading" id="yQh-CB-0td"/>
+            </constraints>
+            <size key="customSize" width="391" height="545"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="eoC-Iy-kyR"/>
+                    <exclude reference="wqO-pQ-dFj"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="btnContinue" destination="Cim-pW-d76" id="zfr-fI-Z25"/>
+                <outlet property="btnSkip" destination="Yjw-yo-CSx" id="4pr-ol-5ni"/>
+                <outlet property="lblDesc" destination="bLx-ZV-m4R" id="anL-eg-xTH"/>
+                <outlet property="lblTitle" destination="tPJ-qx-WsJ" id="khD-tu-ytW"/>
+            </connections>
+            <point key="canvasLocation" x="281.60000000000002" y="218.1409295352324"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="logo" width="100" height="100"/>
+        <namedColor name="skyBlue">
+            <color red="0.25882352941176473" green="0.69019607843137254" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

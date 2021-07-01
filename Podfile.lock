@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.9.1)
+  - Cosmos (23.0.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Kingfisher (6.3.0)
+  - NMLocalizedPhoneCountryView (1.0.9)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cosmos (~> 23.0)
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - NMLocalizedPhoneCountryView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Cosmos
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - NMLocalizedPhoneCountryView
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
+  NMLocalizedPhoneCountryView: 9042412c89dbdf8776c4d4d853af51f5adbaa37f
+
+PODFILE CHECKSUM: d1f1f4f4fe39f6c3ee67c1452adda96498d1399a
+
+COCOAPODS: 1.9.3

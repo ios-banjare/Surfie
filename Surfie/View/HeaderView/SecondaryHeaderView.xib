@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SecondaryHeaderView" customModule="Surfie" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="han-Cc-A9n"/>
+                <outlet property="lblSeprator" destination="KDo-as-OPX" id="i2F-Hn-r3m"/>
+                <outlet property="lblSubTitle" destination="Kfl-zt-zpI" id="W3d-n3-AfY"/>
+                <outlet property="lblTitle" destination="vhO-gy-CEP" id="SVu-Ev-BkJ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="35S-bo-WRE">
+                    <rect key="frame" x="20" y="19" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="TDb-nb-c5f"/>
+                        <constraint firstAttribute="height" constant="50" id="tnx-4b-JDO"/>
+                    </constraints>
+                    <state key="normal" image="sideMenu"/>
+                    <connections>
+                        <action selector="btnLeftBarClicked:" destination="-1" eventType="touchUpInside" id="49s-IP-R6h"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="O que precisas?" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kfl-zt-zpI">
+                    <rect key="frame" x="75" y="40" width="280" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="aul-bs-hjh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="26"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KDo-as-OPX">
+                    <rect key="frame" x="30" y="90" width="325" height="1"/>
+                    <color key="backgroundColor" red="1" green="0.38431372549999998" blue="0.21960784310000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="NRP-1h-76A"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Troy Malta!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vhO-gy-CEP">
+                    <rect key="frame" x="75" y="18" width="280" height="22"/>
+                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="18"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="KDo-as-OPX" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="30" id="117-sK-Rxy"/>
+                <constraint firstItem="35S-bo-WRE" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="2D7-p7-Zpg"/>
+                <constraint firstItem="35S-bo-WRE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="19" id="6cJ-gh-yzM"/>
+                <constraint firstItem="Kfl-zt-zpI" firstAttribute="trailing" secondItem="vhO-gy-CEP" secondAttribute="trailing" id="GCE-mq-N48"/>
+                <constraint firstItem="Kfl-zt-zpI" firstAttribute="top" secondItem="vhO-gy-CEP" secondAttribute="bottom" id="N7P-Up-OTU"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="KDo-as-OPX" secondAttribute="bottom" constant="5" id="OU3-hD-1jQ"/>
+                <constraint firstItem="KDo-as-OPX" firstAttribute="top" secondItem="Kfl-zt-zpI" secondAttribute="bottom" constant="10" id="XT8-lo-fiq"/>
+                <constraint firstItem="vhO-gy-CEP" firstAttribute="leading" secondItem="35S-bo-WRE" secondAttribute="trailing" constant="5" id="g3m-rP-PYw"/>
+                <constraint firstItem="vhO-gy-CEP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="18" id="sQo-0D-BFh"/>
+                <constraint firstItem="vhO-gy-CEP" firstAttribute="trailing" secondItem="KDo-as-OPX" secondAttribute="trailing" id="x3Z-ro-Mx0"/>
+                <constraint firstItem="KDo-as-OPX" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" constant="-20" id="yxH-Ev-JrS"/>
+                <constraint firstItem="Kfl-zt-zpI" firstAttribute="leading" secondItem="vhO-gy-CEP" secondAttribute="leading" id="zow-Bk-Z5H"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="OU3-hD-1jQ"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="35.507246376811594" y="58.928571428571423"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sideMenu" width="102" height="102"/>
+    </resources>
+</document>
