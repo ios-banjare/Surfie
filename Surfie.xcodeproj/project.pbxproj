@@ -75,6 +75,11 @@
 		DB862954268B81E9004FF97A /* ExperiencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB862953268B81E9004FF97A /* ExperiencesViewController.swift */; };
 		DB862956268B82BD004FF97A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB862955268B82BD004FF97A /* DashboardViewController.swift */; };
 		DB8C45872689B04E003410B6 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8C45862689B04E003410B6 /* OTPViewController.swift */; };
+		DB95DBCD268DA854005100F2 /* Experience.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB95DBCC268DA854005100F2 /* Experience.storyboard */; };
+		DB95DBD0268DA96F005100F2 /* ExperienceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95DBCE268DA96F005100F2 /* ExperienceCollectionViewCell.swift */; };
+		DB95DBD1268DA96F005100F2 /* ExperienceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB95DBCF268DA96F005100F2 /* ExperienceCollectionViewCell.xib */; };
+		DB95DBD4268DAA48005100F2 /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95DBD2268DAA48005100F2 /* ExperienceTableViewCell.swift */; };
+		DB95DBD5268DAA48005100F2 /* ExperienceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB95DBD3268DAA48005100F2 /* ExperienceTableViewCell.xib */; };
 		DBD961EA268C3FD0003D734B /* SecondaryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961E9268C3FD0003D734B /* SecondaryHeaderView.swift */; };
 		DBD961EC268C3FDC003D734B /* SecondaryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD961EB268C3FDC003D734B /* SecondaryHeaderView.xib */; };
 		DBD961F1268C5340003D734B /* VehiclesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD961EF268C5340003D734B /* VehiclesCollectionViewCell.swift */; };
@@ -165,6 +170,11 @@
 		DB862953268B81E9004FF97A /* ExperiencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesViewController.swift; sourceTree = "<group>"; };
 		DB862955268B82BD004FF97A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		DB8C45862689B04E003410B6 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		DB95DBCC268DA854005100F2 /* Experience.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Experience.storyboard; sourceTree = SOURCE_ROOT; };
+		DB95DBCE268DA96F005100F2 /* ExperienceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB95DBCF268DA96F005100F2 /* ExperienceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExperienceCollectionViewCell.xib; sourceTree = "<group>"; };
+		DB95DBD2268DAA48005100F2 /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
+		DB95DBD3268DAA48005100F2 /* ExperienceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExperienceTableViewCell.xib; sourceTree = "<group>"; };
 		DBD961E9268C3FD0003D734B /* SecondaryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryHeaderView.swift; sourceTree = "<group>"; };
 		DBD961EB268C3FDC003D734B /* SecondaryHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondaryHeaderView.xib; sourceTree = "<group>"; };
 		DBD961EF268C5340003D734B /* VehiclesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -262,6 +272,7 @@
 				DB25D2A026887E91009661CB /* Localizations */,
 				DB25D2A126887E91009661CB /* Assets.xcassets */,
 				DB25D2A226887E91009661CB /* LaunchScreen.storyboard */,
+				DB95DBCC268DA854005100F2 /* Experience.storyboard */,
 				DB25D2A426887E91009661CB /* Main.storyboard */,
 				DB25D2A626887E91009661CB /* Fonts */,
 				DB25D2CC26887E91009661CB /* Info.plist */,
@@ -405,6 +416,8 @@
 				DB25D2CF26887E91009661CB /* TutorialCollectionViewCell.swift */,
 				DBD961EF268C5340003D734B /* VehiclesCollectionViewCell.swift */,
 				DBD961F0268C5340003D734B /* VehiclesCollectionViewCell.xib */,
+				DB95DBCE268DA96F005100F2 /* ExperienceCollectionViewCell.swift */,
+				DB95DBCF268DA96F005100F2 /* ExperienceCollectionViewCell.xib */,
 			);
 			path = CollectionCells;
 			sourceTree = "<group>";
@@ -414,6 +427,8 @@
 			children = (
 				DBD961F9268CCBB0003D734B /* MenuCell */,
 				DBD961F3268CA40D003D734B /* VehiclesTableViewCell.swift */,
+				DB95DBD2268DAA48005100F2 /* ExperienceTableViewCell.swift */,
+				DB95DBD3268DAA48005100F2 /* ExperienceTableViewCell.xib */,
 			);
 			path = TableCells;
 			sourceTree = "<group>";
@@ -508,6 +523,7 @@
 				DB25D2E826887E91009661CB /* Montserrat-BlackItalic.otf in Resources */,
 				DB25D2F826887E91009661CB /* Montserrat-Medium.otf in Resources */,
 				DBD961EC268C3FDC003D734B /* SecondaryHeaderView.xib in Resources */,
+				DB95DBCD268DA854005100F2 /* Experience.storyboard in Resources */,
 				DB25D2F526887E91009661CB /* MontserratAlternates-ExtraLightItalic.otf in Resources */,
 				DB25D31C268886F0009661CB /* AppConfig.xcconfig in Resources */,
 				DB25D30826887E91009661CB /* MontserratAlternates-ExtraBoldItalic.otf in Resources */,
@@ -519,6 +535,7 @@
 				DB25D2F626887E91009661CB /* MontserratAlternates-Thin.otf in Resources */,
 				DBD961FC268CCBB0003D734B /* MenuTableViewCell.xib in Resources */,
 				DBD961F2268C5340003D734B /* VehiclesCollectionViewCell.xib in Resources */,
+				DB95DBD1268DA96F005100F2 /* ExperienceCollectionViewCell.xib in Resources */,
 				DB25D30326887E91009661CB /* MontserratAlternates-Light.otf in Resources */,
 				DB25D2FB26887E91009661CB /* Montserrat-ExtraBoldItalic.otf in Resources */,
 				DB25D2FE26887E91009661CB /* Montserrat-Regular.otf in Resources */,
@@ -533,6 +550,7 @@
 				DB6C583F268A0F40002089A2 /* FooterView.xib in Resources */,
 				DB25D2FA26887E91009661CB /* Montserrat-SemiBoldItalic.otf in Resources */,
 				DB25D2FD26887E91009661CB /* MontserratAlternates-SemiBold.otf in Resources */,
+				DB95DBD5268DAA48005100F2 /* ExperienceTableViewCell.xib in Resources */,
 				DB25D2F926887E91009661CB /* MontserratAlternates-SemiBoldItalic.otf in Resources */,
 				DB25D2EE26887E91009661CB /* Montserrat-Light.otf in Resources */,
 			);
@@ -587,6 +605,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB95DBD0268DA96F005100F2 /* ExperienceCollectionViewCell.swift in Sources */,
 				DB862954268B81E9004FF97A /* ExperiencesViewController.swift in Sources */,
 				DB862956268B82BD004FF97A /* DashboardViewController.swift in Sources */,
 				DB25D31026887E91009661CB /* TimeComponent.swift in Sources */,
@@ -611,6 +630,7 @@
 				DBD961EA268C3FD0003D734B /* SecondaryHeaderView.swift in Sources */,
 				DB25D2E126887E91009661CB /* UIDevice+JailBroken.swift in Sources */,
 				DB862952268B81A0004FF97A /* VehiclesViewController.swift in Sources */,
+				DB95DBD4268DAA48005100F2 /* ExperienceTableViewCell.swift in Sources */,
 				DB25D31426887E91009661CB /* AppColors.swift in Sources */,
 				DBD961F8268CCABC003D734B /* SlideMenuController.swift in Sources */,
 				DBD96202268CCC43003D734B /* UICollectionViewExtension.swift in Sources */,

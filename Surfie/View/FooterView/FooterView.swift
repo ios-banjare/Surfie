@@ -94,21 +94,24 @@ class FooterView: UIView {
                     Defaults.setValueFor(key: .selectedTab,
                                          value: TabNames.rent.rawValue)
                     Common.instance.rootToSideMenu(
-                        controllerBy: StoryboardIds.Home)
+                        controllerBy: StoryboardIds.Home,
+                        andByStorybord: StoryboardNames.Main.rawValue)
                 }
                 else if b?.tag == 2
                 {
                     Defaults.setValueFor(key: .selectedTab,
                                          value: TabNames.vehicles.rawValue)
                     Common.instance.rootToSideMenu(
-                        controllerBy: StoryboardIds.Vehicles)
+                        controllerBy: StoryboardIds.Vehicles,
+                        andByStorybord: StoryboardNames.Main.rawValue)
                 }
                 else if b?.tag == 3
                 {
                     Defaults.setValueFor(key: .selectedTab,
                                          value: TabNames.experience.rawValue)
                     Common.instance.rootToSideMenu(
-                        controllerBy: StoryboardIds.Experiences)
+                        controllerBy: StoryboardIds.Experiences,
+                        andByStorybord: StoryboardNames.Experience.rawValue)
                 }
                 
             }

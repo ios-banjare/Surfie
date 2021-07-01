@@ -12,6 +12,11 @@ import UIKit
 
 let kAppDelegateObj = UIApplication.shared.delegate as! AppDelegate
 
+
+enum StoryboardNames: String {
+    case Main, Experience
+}
+
 struct StoryboardIds {
     static let Login = "LoginViewController"
     static let OTP = "OTPViewController"
@@ -19,10 +24,15 @@ struct StoryboardIds {
     static let Experiences = "ExperiencesViewController"
     static let Home = "DashboardViewController"
     static let Menu = "MenuViewController"
-  }
+}
 
-struct StoryboardNames {
-    static let Main = "Main"
+struct CustomCellIds {
+    static let Tutorial = "TutorialCollectionViewCell"
+    static let VehiclesCollectionCell = "VehiclesCollectionViewCell"
+    static let VehiclesTableCell = "VehiclesTableViewCell"
+    static let ExperienceCollectionCell = "ExperienceCollectionViewCell"
+    static let ExperienceTableCell = "ExperienceTableViewCell"
+    static let Cell = "Cell"
 }
 
 struct ViewNames {
@@ -51,12 +61,7 @@ struct FontNames {
     static let FiraSansSemiBold = "Fira Sans SemiBold"
 }
 
-struct CustomCellIds {
-    static let Tutorial = "TutorialCollectionViewCell"
-    static let VehiclesCollectionCell = "VehiclesCollectionViewCell"
-    static let VehiclesTableCell = "VehiclesTableViewCell"
-    static let Cell = "Cell"
-}
+
 
 struct Screen {
     static let Width = UIScreen.main.bounds.size.width
@@ -67,12 +72,12 @@ struct IconName {
     static let BackArrow = "arrow-back"
     static let Warning = "Warning"
     static let Bell = "icon-bell"
-   
+    
 }
 
 struct ConstantUrls  {
     //Add in App Config
-     static let urlShareLocation  = "http://www.google.com/maps/place/"
+    static let urlShareLocation  = "http://www.google.com/maps/place/"
 }
 
 
@@ -146,7 +151,7 @@ struct LocalizedText {
     static let Dec = "DEC".local
     static let ConfirmPasswordRequired = "CONFIRM_PASSWORD_REQUIRED".local
     static let NoData = "NO_DATA".local
-   
+    
     static let SelectDateTime = "SELECT_DATE_TIME".local
     static let Authenticate = "AUTHENTICATE".local
     
@@ -156,11 +161,11 @@ struct LocalizedText {
     
     static let dayAgo = "DATAGO".local
     static let Space = "SPACE".local
-
+    
 }
 
 struct StaticText {
-
+    
     static let ErrorCodePrefix = "ERROR_CODE_"
     static let FAILED = "FAILED"
     static let randomNumberGenerator = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
@@ -233,7 +238,7 @@ struct StaticText {
     static let TRIPS = "TRIPS".local
     static let Open = "Open"
     static let GeoFenceName = "Geo Fence 1"
-
+    
     static let PrimaryOwner = "PRIMARY_OWNER".local
     static let SecondaryOwner = "SECONDARY_OWNER".local
     static let UnitKM = "KILO_METER".local
@@ -267,7 +272,7 @@ struct StaticText {
     static let CydiaString = "cydia://"
     
     static let AlreadyRegistered = "ALREADY_REGISTERED".local
-
+    
     static let Theme = "Theme"
     static let Dark = "Dark"
     static let Light = "Light"

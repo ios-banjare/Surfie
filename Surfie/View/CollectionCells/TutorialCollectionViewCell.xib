@@ -77,41 +77,60 @@ teu local e entregar.</string>
                             <action selector="skipContinueSelection:" destination="gTV-IL-0wX" eventType="touchUpInside" id="psH-Z2-4m0"/>
                         </connections>
                     </button>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="C1r-Xc-66d">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ul8-DD-rGS">
                         <rect key="frame" x="132" y="7.5" width="110" height="110"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="C1r-Xc-66d">
+                                <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="110" id="Muo-G0-yU1"/>
-                            <constraint firstAttribute="height" constant="110" id="W1M-p9-9cy"/>
+                            <constraint firstAttribute="trailing" secondItem="C1r-Xc-66d" secondAttribute="trailing" id="4pI-3k-w4u"/>
+                            <constraint firstAttribute="width" constant="110" id="B8S-zJ-Wja"/>
+                            <constraint firstItem="C1r-Xc-66d" firstAttribute="top" secondItem="ul8-DD-rGS" secondAttribute="top" id="Du9-rI-LEs"/>
+                            <constraint firstAttribute="height" constant="110" id="YGc-CT-bjV"/>
+                            <constraint firstAttribute="bottom" secondItem="C1r-Xc-66d" secondAttribute="bottom" id="klW-7I-uh9"/>
+                            <constraint firstItem="C1r-Xc-66d" firstAttribute="leading" secondItem="ul8-DD-rGS" secondAttribute="leading" id="sbs-hT-XuU"/>
                         </constraints>
-                    </imageView>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="0.0" height="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" name="black"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
+                <constraint firstItem="tPJ-qx-WsJ" firstAttribute="top" secondItem="ul8-DD-rGS" secondAttribute="bottom" constant="75" id="1Ln-yh-VpM"/>
                 <constraint firstItem="Yjw-yo-CSx" firstAttribute="top" secondItem="bLx-ZV-m4R" secondAttribute="bottom" constant="26" id="3xH-LL-1qz"/>
                 <constraint firstItem="tPJ-qx-WsJ" firstAttribute="trailing" secondItem="bLx-ZV-m4R" secondAttribute="trailing" id="D6T-gq-yfr"/>
                 <constraint firstItem="tPJ-qx-WsJ" firstAttribute="leading" secondItem="bLx-ZV-m4R" secondAttribute="leading" id="N03-3F-Tdp"/>
+                <constraint firstItem="Yjw-yo-CSx" firstAttribute="centerX" secondItem="ul8-DD-rGS" secondAttribute="centerX" id="Rvw-eY-tWr"/>
                 <constraint firstAttribute="bottom" secondItem="Cim-pW-d76" secondAttribute="bottom" id="TRu-wU-gvv"/>
                 <constraint firstItem="bLx-ZV-m4R" firstAttribute="top" secondItem="tPJ-qx-WsJ" secondAttribute="bottom" constant="34" id="e6J-fe-uE5"/>
-                <constraint firstItem="C1r-Xc-66d" firstAttribute="top" relation="greaterThanOrEqual" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="eoC-Iy-kyR"/>
                 <constraint firstItem="Cim-pW-d76" firstAttribute="trailing" secondItem="bLx-ZV-m4R" secondAttribute="trailing" id="ifc-fF-lv4"/>
                 <constraint firstAttribute="bottom" secondItem="Yjw-yo-CSx" secondAttribute="bottom" constant="20" id="itV-UG-fXO"/>
-                <constraint firstItem="tPJ-qx-WsJ" firstAttribute="top" secondItem="C1r-Xc-66d" secondAttribute="bottom" constant="75" id="jHA-fH-MzJ"/>
+                <constraint firstItem="ul8-DD-rGS" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="leg-z7-dVf"/>
                 <constraint firstAttribute="trailing" secondItem="bLx-ZV-m4R" secondAttribute="trailing" constant="40" id="ra3-ys-6bj"/>
-                <constraint firstItem="C1r-Xc-66d" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="sPw-j3-VRS"/>
                 <constraint firstItem="bLx-ZV-m4R" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="40" id="whF-op-FgE"/>
-                <constraint firstItem="C1r-Xc-66d" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wqO-pQ-dFj"/>
-                <constraint firstItem="Yjw-yo-CSx" firstAttribute="centerX" secondItem="C1r-Xc-66d" secondAttribute="centerX" id="y9a-hO-lrO"/>
                 <constraint firstItem="Cim-pW-d76" firstAttribute="leading" secondItem="bLx-ZV-m4R" secondAttribute="leading" id="yQh-CB-0td"/>
             </constraints>
             <size key="customSize" width="391" height="545"/>
-            <variation key="default">
-                <mask key="constraints">
-                    <exclude reference="eoC-Iy-kyR"/>
-                    <exclude reference="wqO-pQ-dFj"/>
-                </mask>
-            </variation>
             <connections>
                 <outlet property="btnContinue" destination="Cim-pW-d76" id="zfr-fI-Z25"/>
                 <outlet property="btnSkip" destination="Yjw-yo-CSx" id="4pr-ol-5ni"/>
@@ -123,8 +142,11 @@ teu local e entregar.</string>
     </objects>
     <resources>
         <image name="logo" width="100" height="100"/>
+        <namedColor name="black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="skyBlue">
-            <color red="0.25882352941176473" green="0.69019607843137254" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.25900000333786011" green="0.68999999761581421" blue="0.97299998998641968" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>

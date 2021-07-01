@@ -20,11 +20,15 @@
                 <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="9KF-EA-rGs">
-                        <rect key="frame" x="30" y="12.5" width="21" height="19"/>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="9KF-EA-rGs">
+                        <rect key="frame" x="30" y="10" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="P02-Gp-r3q"/>
+                            <constraint firstAttribute="height" constant="24" id="s4W-fR-PkP"/>
+                        </constraints>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mzw-dh-mfL">
-                        <rect key="frame" x="71" y="12.5" width="43" height="19"/>
+                        <rect key="frame" x="74" y="12" width="50" height="20"/>
                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <nil key="highlightedColor"/>
@@ -43,7 +47,7 @@
                 <outlet property="imageViewIcon" destination="9KF-EA-rGs" id="egX-wf-fYp"/>
                 <outlet property="labelTitle" destination="mzw-dh-mfL" id="W9w-QL-TTd"/>
             </connections>
-            <point key="canvasLocation" x="130" y="62"/>
+            <point key="canvasLocation" x="129.375" y="61.267605633802816"/>
         </tableViewCell>
     </objects>
     <resources>

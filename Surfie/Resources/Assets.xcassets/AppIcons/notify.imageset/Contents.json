@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "notify.png",
+      "filename" : "notifications_none@3x.pdf",
       "idiom" : "universal"
     },
     {
@@ -11,6 +11,7 @@
           "value" : "light"
         }
       ],
+      "filename" : "notifications_none@3x-1.pdf",
       "idiom" : "universal"
     },
     {
@@ -20,6 +21,7 @@
           "value" : "dark"
         }
       ],
+      "filename" : "notifications_none@3x-2.pdf",
       "idiom" : "universal"
     }
   ],

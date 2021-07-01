@@ -1,7 +1,7 @@
 {
   "images" : [
     {
-      "filename" : "arrow-Right@3x.png",
+      "filename" : "arrow-right-2.pdf",
       "idiom" : "universal"
     },
     {
@@ -11,7 +11,7 @@
           "value" : "light"
         }
       ],
-      "filename" : "arrow-Right@3x-1.png",
+      "filename" : "arrow-right-1.pdf",
       "idiom" : "universal"
     },
     {
@@ -21,7 +21,7 @@
           "value" : "dark"
         }
       ],
-      "filename" : "arrow-Right@3x-2.png",
+      "filename" : "arrow-right.pdf",
       "idiom" : "universal"
     }
   ],
