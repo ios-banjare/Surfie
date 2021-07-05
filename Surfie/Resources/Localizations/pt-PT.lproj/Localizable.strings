@@ -54,3 +54,26 @@
 
 //MARK: - [ Vehicles ] -
 "WHAT_U_NEED" = "O que você precisa?";
+
+
+//MARK: - [ Dashboard ] -
+"WHAT_U_NEED_TODAY" = "O que precisas hoje?";
+"GD_MORN" = "Bom Dia";
+"GD_EVE" = "Boa Noite";
+"GD_NIGHT" = "Boa Noite";
+"GD_AFTERNOON" = "Boa Tarde";
+"GD_NOON" = "Bom Meio-dia";
+
+
+//MARK: - [ Experience ] -
+"PROFILE" = "Perfil";
+"REVIEWS" = "Avaliações";
+/**
+ IGNORE WILL GET FROM API
+ */
+"EXPERT_DESC" = "Aos 25 anos Rodrigo Carrajola conquistou o seu primeiro título nacional de bodysurf.";
+"ABOUT" = "Sobre";
+"LIVE_IN" = "Mora em";
+"SPEAKS" = "Fala";
+"ACTIVITY" = "Actividade";
+"TEMP_REVIEWS" = "Eu amei! Com certeza quero repetir essa aula novamente. Rodrigo foi muito profissional.✌  ✌  ";

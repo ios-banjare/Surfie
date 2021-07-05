@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Cosmos
 
 class VehiclesCollectionViewCell: UICollectionViewCell {
     

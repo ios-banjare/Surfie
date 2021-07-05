@@ -6,3 +6,4 @@
 @import CoreLocation;
 @import NMLocalizedPhoneCountryView;
 @import IQKeyboardManagerSwift;
+@import Cosmos;

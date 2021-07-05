@@ -38,8 +38,8 @@ class ExperiencesViewController: UIViewController, SecondaryHeaderViewDelegate {
 
 // MARK: - [ Table Delegate/DataSource ] -
 
-extension ExperiencesViewController: UITableViewDataSource, UITableViewDelegate {
- 
+extension ExperiencesViewController: UITableViewDataSource, UITableViewDelegate, ExperienceTableCellDelegate {
+
     //Delegate
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
@@ -56,6 +56,7 @@ extension ExperiencesViewController: UITableViewDataSource, UITableViewDelegate 
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CustomCellIds.ExperienceTableCell, for: indexPath) as? ExperienceTableViewCell else {
             return UITableViewCell()
         }
+        cell.delegate = self
         return cell
     }
     
@@ -63,4 +64,10 @@ extension ExperiencesViewController: UITableViewDataSource, UITableViewDelegate 
         
     }
     
+    func itemSelectedAt(index: Int) {
+        guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "ExpertProfileViewController") else {
+            return
+        }
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
 }

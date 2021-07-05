@@ -55,3 +55,26 @@
 
 //MARK: - [ Vehicles ] -
 "WHAT_U_NEED" = "What do you need?";
+
+//MARK: - [ Dashboard ] -
+"WHAT_U_NEED_TODAY" = "What do you need today?";
+"GD_MORN" = "Good Morning";
+"GD_EVE" = "Good Evening";
+"GD_NIGHT" = "Good Night";
+"GD_AFTERNOON" = "Good Afternoon";
+"GD_NOON" = "Good Noon";
+
+
+//MARK: - [ Experience ] -
+"PROFILE" = "Profile";
+"REVIEWS" = "Reviews";
+/**
+ IGNORE WILL GET FROM API
+ */
+"EXPERT_DESC" = "At 25 years old Rodrigo Carrajola won his first national bodysurf title.";
+"ABOUT" = "About";
+"LIVE_IN" = "Lives in";
+"SPEAKS" = "Speaks";
+"ACTIVITY" = "Activity";
+"TEMP_REVIEWS" = "I loved it! For sure I want to repeat this class again. Rodrigo was very professional.✌􏰀✌􏰀";
+

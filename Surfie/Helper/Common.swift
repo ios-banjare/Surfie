@@ -175,24 +175,6 @@ class Common: NSObject {
       return String((0..<length).map{ _ in letters.randomElement()! })
     }
     
-//    func rootToHome() {
-//
-//        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
-//        let mainViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Home)
-//        guard let leftViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Menu) as? MenuViewController else {
-//            return
-//        }
-//        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
-//        nvc.isNavigationBarHidden = true
-//        let nvcLeft: UINavigationController = UINavigationController(rootViewController: leftViewController)
-//        nvcLeft.isNavigationBarHidden = true
-//
-//        let slideMenuController = SlideMenuController(mainViewController: nvc, leftMenuViewController: nvcLeft)
-//        slideMenuController.delegate = mainViewController as? SlideMenuControllerDelegate
-//        UIApplication.window().rootViewController = slideMenuController
-//        UIApplication.window().makeKeyAndVisible()
-//    }
-    
     func rootToSideMenu(controllerBy strId: String, andByStorybord name: String)  {
         let storyboard = UIStoryboard(name: name, bundle: nil)
         let mainViewController = storyboard.instantiateViewController(withIdentifier: strId)
@@ -211,21 +193,15 @@ class Common: NSObject {
         UIApplication.window().makeKeyAndVisible()
     }
     
-//    func rootToVehicles() {
-//        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
-//        let mainViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Vehicles)
-//        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
-//        nvc.isNavigationBarHidden = true
-//        UIApplication.window().rootViewController = nvc
-//        UIApplication.window().makeKeyAndVisible()
-//    }
-//
-//    func rootToExperiences() {
-//        let storyboard = UIStoryboard(name: StoryboardNames.Main, bundle: nil)
-//        let mainViewController = storyboard.instantiateViewController(withIdentifier: StoryboardIds.Experiences)
-//        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
-//        nvc.isNavigationBarHidden = true
-//        UIApplication.window().rootViewController = nvc
-//        UIApplication.window().makeKeyAndVisible()
-//    }
+    func getSalutaionWish() -> String {
+        let hour = Calendar.current.component(.hour, from: Date())
+        switch hour {
+        case 6..<12 : return "GD_MORN".local
+        case 12 : return "GD_NOON".local
+        case 13..<17 : return "GD_AFTERNOON".local
+        case 17..<22 : return "GD_EVE".local
+        default: return "GD_NIGHT".local
+        }
+    }
+   
 }

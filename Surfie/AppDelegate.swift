@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
+        GMSServices.provideAPIKey("AIzaSyDT0ou5llt3O65LKFBZk-SddcxXK7BJjLw")
+        Defaults.setValueFor(key: .selectedTab,
+                             value: TabNames.rent.rawValue)
+        Common.instance.rootToSideMenu(controllerBy: StoryboardIds.Home, andByStorybord: StoryboardNames.Main.rawValue)
         return true
     }
     

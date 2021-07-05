@@ -65,6 +65,14 @@
 		DB25D31826887E91009661CB /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2DC26887E91009661CB /* CustomTextField.swift */; };
 		DB25D31926887E91009661CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D2DE26887E91009661CB /* ViewController.swift */; };
 		DB25D31C268886F0009661CB /* AppConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = DB25D31B268886EF009661CB /* AppConfig.xcconfig */; };
+		DB29C355268EEEEE006EE0B9 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB29C354268EEEEE006EE0B9 /* CategoryCollectionViewCell.swift */; };
+		DB34F8A2269214A500E4E10D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB34F8A1269214A500E4E10D /* ProfileViewController.swift */; };
+		DB3A656E268F291000CD471E /* CustomSegmentControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A656D268F291000CD471E /* CustomSegmentControl.swift */; };
+		DB3A6570268F318500CD471E /* ExpertProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3A656F268F318500CD471E /* ExpertProfileViewController.swift */; };
+		DB68EB002691D07F00091FD3 /* Experience.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB68EAFE2691D07F00091FD3 /* Experience.storyboard */; };
+		DB68EB022691EDFE00091FD3 /* ReviewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68EB012691EDFE00091FD3 /* ReviewsViewController.swift */; };
+		DB68EB052691EE7500091FD3 /* ReviewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB68EB032691EE7500091FD3 /* ReviewsTableViewCell.swift */; };
+		DB68EB062691EE7500091FD3 /* ReviewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB68EB042691EE7500091FD3 /* ReviewsTableViewCell.xib */; };
 		DB6C5836268A0DB7002089A2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DB6C5838268A0DB7002089A2 /* Localizable.strings */; };
 		DB6C583E268A0F40002089A2 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6C583C268A0F3F002089A2 /* FooterView.swift */; };
 		DB6C583F268A0F40002089A2 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB6C583D268A0F3F002089A2 /* FooterView.xib */; };
@@ -75,7 +83,6 @@
 		DB862954268B81E9004FF97A /* ExperiencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB862953268B81E9004FF97A /* ExperiencesViewController.swift */; };
 		DB862956268B82BD004FF97A /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB862955268B82BD004FF97A /* DashboardViewController.swift */; };
 		DB8C45872689B04E003410B6 /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8C45862689B04E003410B6 /* OTPViewController.swift */; };
-		DB95DBCD268DA854005100F2 /* Experience.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB95DBCC268DA854005100F2 /* Experience.storyboard */; };
 		DB95DBD0268DA96F005100F2 /* ExperienceCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95DBCE268DA96F005100F2 /* ExperienceCollectionViewCell.swift */; };
 		DB95DBD1268DA96F005100F2 /* ExperienceCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB95DBCF268DA96F005100F2 /* ExperienceCollectionViewCell.xib */; };
 		DB95DBD4268DAA48005100F2 /* ExperienceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB95DBD2268DAA48005100F2 /* ExperienceTableViewCell.swift */; };
@@ -159,6 +166,14 @@
 		DB25D2DC26887E91009661CB /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		DB25D2DE26887E91009661CB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB25D31B268886EF009661CB /* AppConfig.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
+		DB29C354268EEEEE006EE0B9 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		DB34F8A1269214A500E4E10D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		DB3A656D268F291000CD471E /* CustomSegmentControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentControl.swift; sourceTree = "<group>"; };
+		DB3A656F268F318500CD471E /* ExpertProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertProfileViewController.swift; sourceTree = "<group>"; };
+		DB68EAFF2691D07F00091FD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Experience.storyboard; sourceTree = "<group>"; };
+		DB68EB012691EDFE00091FD3 /* ReviewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsViewController.swift; sourceTree = "<group>"; };
+		DB68EB032691EE7500091FD3 /* ReviewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsTableViewCell.swift; sourceTree = "<group>"; };
+		DB68EB042691EE7500091FD3 /* ReviewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewsTableViewCell.xib; sourceTree = "<group>"; };
 		DB6C5837268A0DB7002089A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		DB6C583A268A0E43002089A2 /* pt-PT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-PT"; path = "pt-PT.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		DB6C583C268A0F3F002089A2 /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
@@ -170,7 +185,6 @@
 		DB862953268B81E9004FF97A /* ExperiencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesViewController.swift; sourceTree = "<group>"; };
 		DB862955268B82BD004FF97A /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		DB8C45862689B04E003410B6 /* OTPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
-		DB95DBCC268DA854005100F2 /* Experience.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Experience.storyboard; sourceTree = SOURCE_ROOT; };
 		DB95DBCE268DA96F005100F2 /* ExperienceCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceCollectionViewCell.swift; sourceTree = "<group>"; };
 		DB95DBCF268DA96F005100F2 /* ExperienceCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExperienceCollectionViewCell.xib; sourceTree = "<group>"; };
 		DB95DBD2268DAA48005100F2 /* ExperienceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceTableViewCell.swift; sourceTree = "<group>"; };
@@ -272,7 +286,7 @@
 				DB25D2A026887E91009661CB /* Localizations */,
 				DB25D2A126887E91009661CB /* Assets.xcassets */,
 				DB25D2A226887E91009661CB /* LaunchScreen.storyboard */,
-				DB95DBCC268DA854005100F2 /* Experience.storyboard */,
+				DB68EAFE2691D07F00091FD3 /* Experience.storyboard */,
 				DB25D2A426887E91009661CB /* Main.storyboard */,
 				DB25D2A626887E91009661CB /* Fonts */,
 				DB25D2CC26887E91009661CB /* Info.plist */,
@@ -361,6 +375,9 @@
 				DB862951268B81A0004FF97A /* VehiclesViewController.swift */,
 				DB862953268B81E9004FF97A /* ExperiencesViewController.swift */,
 				DB862955268B82BD004FF97A /* DashboardViewController.swift */,
+				DB3A656F268F318500CD471E /* ExpertProfileViewController.swift */,
+				DB68EB012691EDFE00091FD3 /* ReviewsViewController.swift */,
+				DB34F8A1269214A500E4E10D /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -369,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				DB86294F268B7E94004FF97A /* Defaults.swift */,
+				DB3A656D268F291000CD471E /* CustomSegmentControl.swift */,
 				DB25D2D426887E91009661CB /* TimeComponent.swift */,
 				DB25D2D526887E91009661CB /* Constants.swift */,
 				DBD961F7268CCABC003D734B /* SlideMenuController.swift */,
@@ -418,6 +436,7 @@
 				DBD961F0268C5340003D734B /* VehiclesCollectionViewCell.xib */,
 				DB95DBCE268DA96F005100F2 /* ExperienceCollectionViewCell.swift */,
 				DB95DBCF268DA96F005100F2 /* ExperienceCollectionViewCell.xib */,
+				DB29C354268EEEEE006EE0B9 /* CategoryCollectionViewCell.swift */,
 			);
 			path = CollectionCells;
 			sourceTree = "<group>";
@@ -429,6 +448,8 @@
 				DBD961F3268CA40D003D734B /* VehiclesTableViewCell.swift */,
 				DB95DBD2268DAA48005100F2 /* ExperienceTableViewCell.swift */,
 				DB95DBD3268DAA48005100F2 /* ExperienceTableViewCell.xib */,
+				DB68EB032691EE7500091FD3 /* ReviewsTableViewCell.swift */,
+				DB68EB042691EE7500091FD3 /* ReviewsTableViewCell.xib */,
 			);
 			path = TableCells;
 			sourceTree = "<group>";
@@ -454,6 +475,7 @@
 				DB25D27D26887CA1009661CB /* Frameworks */,
 				DB25D27E26887CA1009661CB /* Resources */,
 				AB6C9CF67EAC49BABE41CB25 /* [CP] Embed Pods Frameworks */,
+				CC21BFA1DC36E9BF6F45E643 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -523,9 +545,9 @@
 				DB25D2E826887E91009661CB /* Montserrat-BlackItalic.otf in Resources */,
 				DB25D2F826887E91009661CB /* Montserrat-Medium.otf in Resources */,
 				DBD961EC268C3FDC003D734B /* SecondaryHeaderView.xib in Resources */,
-				DB95DBCD268DA854005100F2 /* Experience.storyboard in Resources */,
 				DB25D2F526887E91009661CB /* MontserratAlternates-ExtraLightItalic.otf in Resources */,
 				DB25D31C268886F0009661CB /* AppConfig.xcconfig in Resources */,
+				DB68EB062691EE7500091FD3 /* ReviewsTableViewCell.xib in Resources */,
 				DB25D30826887E91009661CB /* MontserratAlternates-ExtraBoldItalic.otf in Resources */,
 				DB25D2EB26887E91009661CB /* MontserratAlternates-LightItalic.otf in Resources */,
 				DB25D2FC26887E91009661CB /* Montserrat-Italic.otf in Resources */,
@@ -553,6 +575,7 @@
 				DB95DBD5268DAA48005100F2 /* ExperienceTableViewCell.xib in Resources */,
 				DB25D2F926887E91009661CB /* MontserratAlternates-SemiBoldItalic.otf in Resources */,
 				DB25D2EE26887E91009661CB /* Montserrat-Light.otf in Resources */,
+				DB68EB002691D07F00091FD3 /* Experience.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,6 +597,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Surfie/Pods-Surfie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC21BFA1DC36E9BF6F45E643 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Surfie/Pods-Surfie-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Surfie/Pods-Surfie-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Surfie/Pods-Surfie-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FB50BCC0346744F77CE81FD1 /* [CP] Check Pods Manifest.lock */ = {
@@ -605,6 +645,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB3A656E268F291000CD471E /* CustomSegmentControl.swift in Sources */,
 				DB95DBD0268DA96F005100F2 /* ExperienceCollectionViewCell.swift in Sources */,
 				DB862954268B81E9004FF97A /* ExperiencesViewController.swift in Sources */,
 				DB862956268B82BD004FF97A /* DashboardViewController.swift in Sources */,
@@ -621,9 +662,12 @@
 				DBD96201268CCC43003D734B /* UIApplicationExtension.swift in Sources */,
 				DB25D2E026887E91009661CB /* Extension.swift in Sources */,
 				DB25D31626887E91009661CB /* Common.swift in Sources */,
+				DB68EB052691EE7500091FD3 /* ReviewsTableViewCell.swift in Sources */,
 				DB25D31226887E91009661CB /* BaseViewController.swift in Sources */,
+				DB68EB022691EDFE00091FD3 /* ReviewsViewController.swift in Sources */,
 				DB25D31926887E91009661CB /* ViewController.swift in Sources */,
 				DB25D30D26887E91009661CB /* TutorialCollectionViewCell.swift in Sources */,
+				DB34F8A2269214A500E4E10D /* ProfileViewController.swift in Sources */,
 				DBD961F4268CA40D003D734B /* VehiclesTableViewCell.swift in Sources */,
 				DBD96203268CCC43003D734B /* UITableViewExtension.swift in Sources */,
 				DB25D30E26887E91009661CB /* TutorialViewController.swift in Sources */,
@@ -631,6 +675,7 @@
 				DB25D2E126887E91009661CB /* UIDevice+JailBroken.swift in Sources */,
 				DB862952268B81A0004FF97A /* VehiclesViewController.swift in Sources */,
 				DB95DBD4268DAA48005100F2 /* ExperienceTableViewCell.swift in Sources */,
+				DB29C355268EEEEE006EE0B9 /* CategoryCollectionViewCell.swift in Sources */,
 				DB25D31426887E91009661CB /* AppColors.swift in Sources */,
 				DBD961F8268CCABC003D734B /* SlideMenuController.swift in Sources */,
 				DBD96202268CCC43003D734B /* UICollectionViewExtension.swift in Sources */,
@@ -639,6 +684,7 @@
 				DB862950268B7E94004FF97A /* Defaults.swift in Sources */,
 				DB25D31326887E91009661CB /* DateFormat.swift in Sources */,
 				DB25D31126887E91009661CB /* Constants.swift in Sources */,
+				DB3A6570268F318500CD471E /* ExpertProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,6 +705,14 @@
 				DB25D2A526887E91009661CB /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB68EAFE2691D07F00091FD3 /* Experience.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB68EAFF2691D07F00091FD3 /* Base */,
+			);
+			name = Experience.storyboard;
 			sourceTree = "<group>";
 		};
 		DB6C5838268A0DB7002089A2 /* Localizable.strings */ = {

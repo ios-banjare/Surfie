@@ -5,6 +5,10 @@ import UIKit
 import Foundation
 
 struct AppColor {
+    static let skyBlue = UIColor(named: "skyBlue")
+    static let defaultBlack = UIColor(named: "black")
+    static let defaultWhite = UIColor(named: "defaultWhite")
+
     static let errorColor = UIColor(named: "errorColor")
     static let primaryTextColor =  UIColor(named: "primaryTextColor")
     static let primaryThemeColor =  UIColor(named: "primaryThemeColor")

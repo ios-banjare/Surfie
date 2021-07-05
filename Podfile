@@ -11,6 +11,7 @@ target 'Surfie' do
   pod 'IQKeyboardManagerSwift'
   pod 'NMLocalizedPhoneCountryView'
   pod 'Cosmos', '~> 23.0'
+  pod 'GoogleMaps', '5.0.0'
   # '= 4.9.1'
   
 end
