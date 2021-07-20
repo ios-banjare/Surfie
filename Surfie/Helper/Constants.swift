@@ -14,7 +14,7 @@ let kAppDelegateObj = UIApplication.shared.delegate as! AppDelegate
 
 
 enum StoryboardNames: String {
-    case Main, Experience
+    case Main, Experience, Payment
 }
 
 struct StoryboardIds {
@@ -24,6 +24,12 @@ struct StoryboardIds {
     static let Experiences = "ExperiencesViewController"
     static let Home = "DashboardViewController"
     static let Menu = "MenuViewController"
+    static let Reviews = "ReviewsViewController"
+    static let Profile = "ProfileViewController"
+    static let CardsVC = "CardsViewController"
+    static let AddCardVC = "AddCardViewController"
+    static let HistoryVC = "HistoryViewController"
+
 }
 
 struct CustomCellIds {
@@ -32,6 +38,9 @@ struct CustomCellIds {
     static let VehiclesTableCell = "VehiclesTableViewCell"
     static let ExperienceCollectionCell = "ExperienceCollectionViewCell"
     static let ExperienceTableCell = "ExperienceTableViewCell"
+    static let CategoryCollectionCell = "CategoryCollectionViewCell"
+    static let ReviewsTableCell = "ReviewsTableViewCell"
+    static let DefaultTableCell = "DefaultTableViewCell"
     static let Cell = "Cell"
 }
 
@@ -54,11 +63,10 @@ struct SideMenuConstant {
 
 
 struct FontNames {
-    static let Medium = "FiraSans-Medium"
-    static let Bold = "FiraSans-Bold"
-    static let SemiBold = "FiraSans-SemiBold"
-    static let Regular = "FiraSans-Regular"
-    static let FiraSansSemiBold = "Fira Sans SemiBold"
+    static let Medium = "Montserrat-Medium"
+    static let Bold = "Montserrat-Bold"
+    static let SemiBold = "Montserrat-SemiBold"
+    static let Regular = "Montserrat-Regular"
 }
 
 

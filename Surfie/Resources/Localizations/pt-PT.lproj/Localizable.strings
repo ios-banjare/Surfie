@@ -13,6 +13,8 @@
 "NEXT" = "Seguinte";
 "LOGIN" = "Conecte Se";
 "PHONE_NO" = "Número de telefone";
+"HISTORY" = "Histórico";
+"CARDS" = "Cartões";
 
 //MARK: - [ Side Menu ] -
 
@@ -54,3 +56,31 @@
 
 //MARK: - [ Vehicles ] -
 "WHAT_U_NEED" = "O que você precisa?";
+
+
+//MARK: - [ Dashboard ] -
+"WHAT_U_NEED_TODAY" = "O que precisas hoje?";
+"GD_MORN" = "Bom Dia";
+"GD_EVE" = "Boa Noite";
+"GD_NIGHT" = "Boa Noite";
+"GD_AFTERNOON" = "Boa Tarde";
+"GD_NOON" = "Bom Meio-dia";
+
+
+//MARK: - [ Experience ] -
+"PROFILE" = "Perfil";
+"REVIEWS" = "Avaliações";
+/**
+ IGNORE WILL GET FROM API
+ */
+"EXPERT_DESC" = "Aos 25 anos Rodrigo Carrajola conquistou o seu primeiro título nacional de bodysurf.";
+"ABOUT" = "Sobre";
+"LIVE_IN" = "Mora em";
+"SPEAKS" = "Fala";
+"ACTIVITY" = "Actividade";
+"TEMP_REVIEWS" = "Eu amei! Com certeza quero repetir essa aula novamente. Rodrigo foi muito profissional.✌  ✌  ";
+
+//MARK: - [ PAYMENTS ] -
+"ADD_CARD" = "Adicionar Cartão";
+"ADD_CARD_DESC" = "MBNET/MBway: Adiciona apenas 1 cartão de comerciante com validade de 12 meses e com um valor superior a 25€/mensal para evitar bloqueios. Só te será cobrado o calor da viagem";
+"CARD_NUMBER" = "Número do cartão";

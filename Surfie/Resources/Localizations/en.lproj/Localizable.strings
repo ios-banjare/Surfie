@@ -12,6 +12,8 @@
 "NEXT" = "Next";
 "LOGIN" = "Login";
 "PHONE_NO" = "Phone number";
+"HISTORY" = "History";
+"CARDS" = "Cardes";
 
 //MARK: - [ Side Menu ] -
 
@@ -55,3 +57,31 @@
 
 //MARK: - [ Vehicles ] -
 "WHAT_U_NEED" = "What do you need?";
+
+//MARK: - [ Dashboard ] -
+"WHAT_U_NEED_TODAY" = "What do you need today?";
+"GD_MORN" = "Good Morning";
+"GD_EVE" = "Good Evening";
+"GD_NIGHT" = "Good Night";
+"GD_AFTERNOON" = "Good Afternoon";
+"GD_NOON" = "Good Noon";
+
+
+//MARK: - [ Experience ] -
+"PROFILE" = "Profile";
+"REVIEWS" = "Reviews";
+/**
+ IGNORE WILL GET FROM API
+ */
+"EXPERT_DESC" = "At 25 years old Rodrigo Carrajola won his first national bodysurf title.";
+"ABOUT" = "About";
+"LIVE_IN" = "Lives in";
+"SPEAKS" = "Speaks";
+"ACTIVITY" = "Activity";
+"TEMP_REVIEWS" = "I loved it! For sure I want to repeat this class again. Rodrigo was very professional.✌􏰀✌􏰀";
+
+
+//MARK: - [ PAYMENTS ] -
+"ADD_CARD" = "Add Card";
+"ADD_CARD_DESC" = "MBNET/MBway: Adds only 1 merchant card valid for 12 months and with a value greater than €25/month to avoid blocking. You will only be charged for the heat of the trip.";
+"CARD_NUMBER" = "Card number";

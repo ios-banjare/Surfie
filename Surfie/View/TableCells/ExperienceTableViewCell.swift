@@ -7,6 +7,10 @@
 
 import UIKit
 
+protocol ExperienceTableCellDelegate: AnyObject {
+    func itemSelectedAt(index: Int)
+}
+
 class ExperienceTableViewCell: UITableViewCell {
     
     //MARK: - [ IBOutlets & Properties] -
@@ -14,6 +18,8 @@ class ExperienceTableViewCell: UITableViewCell {
     @IBOutlet weak var cvcExperience : UICollectionView!
     @IBOutlet weak var lblHeading : UILabel!
     @IBOutlet weak var lblSubHeading : UILabel!
+    
+    weak var delegate: ExperienceTableCellDelegate?
     
     //MARK: - [ ViewLifeCycle ] -
     
@@ -59,4 +65,10 @@ extension ExperienceTableViewCell : UICollectionViewDelegate,UICollectionViewDat
                       height: 250)
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let myDelegate = self.delegate?.itemSelectedAt else {
+            return
+        }
+        myDelegate(0)
+    }
 }

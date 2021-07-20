@@ -196,6 +196,24 @@ extension UITextField {
     func rotateBy180Degrees() {
         transform = CGAffineTransform(rotationAngle: .pi)
     }
+    
+    var safeAreaBottom: CGFloat {
+         if #available(iOS 11, *) {
+            if let window = UIApplication.shared.keyWindowInConnectedScenes {
+                return window.safeAreaInsets.bottom
+            }
+         }
+         return 0
+    }
+
+    var safeAreaTop: CGFloat {
+         if #available(iOS 11, *) {
+            if let window = UIApplication.shared.keyWindowInConnectedScenes {
+                return window.safeAreaInsets.top
+            }
+         }
+         return 0
+    }
 }
 
 
@@ -989,6 +1007,19 @@ extension UIImage {
         UIGraphicsEndImageContext()
         
         return newImage!
+    }
+    
+    //creates a UIImage given a UIColor
+    public convenience init?(color: UIColor, size: CGSize = CGSize(width: 1, height: 1)) {
+        let rect = CGRect(origin: .zero, size: size)
+        UIGraphicsBeginImageContextWithOptions(rect.size, false, 0.0)
+        color.setFill()
+        UIRectFill(rect)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+    
+        guard let cgImage = image?.cgImage else { return nil }
+        self.init(cgImage: cgImage)
     }
 }
 
