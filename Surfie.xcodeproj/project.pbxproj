@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181E77F826A63160006E4017 /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E77F626A63160006E4017 /* DefaultTableViewCell.swift */; };
+		181E77F926A63160006E4017 /* DefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181E77F726A63160006E4017 /* DefaultTableViewCell.xib */; };
+		181E77FB26A659AA006E4017 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E77FA26A659AA006E4017 /* CardsViewController.swift */; };
+		1827D2EE26A62993009A05BF /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827D2ED26A62993009A05BF /* Payment.storyboard */; };
+		187B0DA826A7C91700DB7993 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0DA726A7C91700DB7993 /* AddCardViewController.swift */; };
+		187B0DAA26A7E29300DB7993 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0DA926A7E29300DB7993 /* HistoryViewController.swift */; };
 		9F5848CB98556C15BBC53D3B /* Pods_Surfie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 760656EDF0693255A67B82EF /* Pods_Surfie.framework */; };
 		DB25D2DF26887E91009661CB /* UINavigationController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D29A26887E91009661CB /* UINavigationController+Extension.swift */; };
 		DB25D2E026887E91009661CB /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB25D29B26887E91009661CB /* Extension.swift */; };
@@ -102,6 +108,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181E77F626A63160006E4017 /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
+		181E77F726A63160006E4017 /* DefaultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultTableViewCell.xib; sourceTree = "<group>"; };
+		181E77FA26A659AA006E4017 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		1827D2ED26A62993009A05BF /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		187B0DA726A7C91700DB7993 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
+		187B0DA926A7E29300DB7993 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		225C111BB9325DE36B5A5268 /* Pods-Surfie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Surfie.debug.xcconfig"; path = "Target Support Files/Pods-Surfie/Pods-Surfie.debug.xcconfig"; sourceTree = "<group>"; };
 		57B3DC3A16841199E77B4C19 /* Pods-Surfie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Surfie.release.xcconfig"; path = "Target Support Files/Pods-Surfie/Pods-Surfie.release.xcconfig"; sourceTree = "<group>"; };
 		760656EDF0693255A67B82EF /* Pods_Surfie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Surfie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -290,6 +302,7 @@
 				DB25D2A426887E91009661CB /* Main.storyboard */,
 				DB25D2A626887E91009661CB /* Fonts */,
 				DB25D2CC26887E91009661CB /* Info.plist */,
+				1827D2ED26A62993009A05BF /* Payment.storyboard */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -378,6 +391,9 @@
 				DB3A656F268F318500CD471E /* ExpertProfileViewController.swift */,
 				DB68EB012691EDFE00091FD3 /* ReviewsViewController.swift */,
 				DB34F8A1269214A500E4E10D /* ProfileViewController.swift */,
+				181E77FA26A659AA006E4017 /* CardsViewController.swift */,
+				187B0DA726A7C91700DB7993 /* AddCardViewController.swift */,
+				187B0DA926A7E29300DB7993 /* HistoryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -450,6 +466,8 @@
 				DB95DBD3268DAA48005100F2 /* ExperienceTableViewCell.xib */,
 				DB68EB032691EE7500091FD3 /* ReviewsTableViewCell.swift */,
 				DB68EB042691EE7500091FD3 /* ReviewsTableViewCell.xib */,
+				181E77F626A63160006E4017 /* DefaultTableViewCell.swift */,
+				181E77F726A63160006E4017 /* DefaultTableViewCell.xib */,
 			);
 			path = TableCells;
 			sourceTree = "<group>";
@@ -526,12 +544,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB25D2FF26887E91009661CB /* MontserratAlternates-ExtraBold.otf in Resources */,
+				181E77F926A63160006E4017 /* DefaultTableViewCell.xib in Resources */,
 				DB25D30126887E91009661CB /* Montserrat-ExtraBold.otf in Resources */,
 				DB25D30726887E91009661CB /* Montserrat-Black.otf in Resources */,
 				DB86294D268B3BC7004FF97A /* HeaderView.xib in Resources */,
 				DB25D30526887E91009661CB /* MontserratAlternates-Regular.otf in Resources */,
 				DB25D2EA26887E91009661CB /* MontserratAlternates-Black.otf in Resources */,
 				DB25D30226887E91009661CB /* Montserrat-ExtraLightItalic.otf in Resources */,
+				1827D2EE26A62993009A05BF /* Payment.storyboard in Resources */,
 				DB25D2E726887E91009661CB /* Montserrat-Bold.otf in Resources */,
 				DB25D2F326887E91009661CB /* MontserratAlternates-BlackItalic.otf in Resources */,
 				DB25D30A26887E91009661CB /* Montserrat-SemiBold.otf in Resources */,
@@ -653,6 +673,7 @@
 				DB25D30F26887E91009661CB /* LoginViewController.swift in Sources */,
 				DBD961F1268C5340003D734B /* VehiclesCollectionViewCell.swift in Sources */,
 				DB25D2E226887E91009661CB /* AppDelegate.swift in Sources */,
+				181E77FB26A659AA006E4017 /* CardsViewController.swift in Sources */,
 				DB6C583E268A0F40002089A2 /* FooterView.swift in Sources */,
 				DB25D2DF26887E91009661CB /* UINavigationController+Extension.swift in Sources */,
 				DB25D31826887E91009661CB /* CustomTextField.swift in Sources */,
@@ -663,6 +684,7 @@
 				DB25D2E026887E91009661CB /* Extension.swift in Sources */,
 				DB25D31626887E91009661CB /* Common.swift in Sources */,
 				DB68EB052691EE7500091FD3 /* ReviewsTableViewCell.swift in Sources */,
+				187B0DA826A7C91700DB7993 /* AddCardViewController.swift in Sources */,
 				DB25D31226887E91009661CB /* BaseViewController.swift in Sources */,
 				DB68EB022691EDFE00091FD3 /* ReviewsViewController.swift in Sources */,
 				DB25D31926887E91009661CB /* ViewController.swift in Sources */,
@@ -670,6 +692,7 @@
 				DB34F8A2269214A500E4E10D /* ProfileViewController.swift in Sources */,
 				DBD961F4268CA40D003D734B /* VehiclesTableViewCell.swift in Sources */,
 				DBD96203268CCC43003D734B /* UITableViewExtension.swift in Sources */,
+				187B0DAA26A7E29300DB7993 /* HistoryViewController.swift in Sources */,
 				DB25D30E26887E91009661CB /* TutorialViewController.swift in Sources */,
 				DBD961EA268C3FD0003D734B /* SecondaryHeaderView.swift in Sources */,
 				DB25D2E126887E91009661CB /* UIDevice+JailBroken.swift in Sources */,
@@ -683,6 +706,7 @@
 				DB8C45872689B04E003410B6 /* OTPViewController.swift in Sources */,
 				DB862950268B7E94004FF97A /* Defaults.swift in Sources */,
 				DB25D31326887E91009661CB /* DateFormat.swift in Sources */,
+				181E77F826A63160006E4017 /* DefaultTableViewCell.swift in Sources */,
 				DB25D31126887E91009661CB /* Constants.swift in Sources */,
 				DB3A6570268F318500CD471E /* ExpertProfileViewController.swift in Sources */,
 			);

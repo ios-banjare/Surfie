@@ -13,6 +13,8 @@
 "NEXT" = "Seguinte";
 "LOGIN" = "Conecte Se";
 "PHONE_NO" = "Número de telefone";
+"HISTORY" = "Histórico";
+"CARDS" = "Cartões";
 
 //MARK: - [ Side Menu ] -
 
@@ -77,3 +79,8 @@
 "SPEAKS" = "Fala";
 "ACTIVITY" = "Actividade";
 "TEMP_REVIEWS" = "Eu amei! Com certeza quero repetir essa aula novamente. Rodrigo foi muito profissional.✌  ✌  ";
+
+//MARK: - [ PAYMENTS ] -
+"ADD_CARD" = "Adicionar Cartão";
+"ADD_CARD_DESC" = "MBNET/MBway: Adiciona apenas 1 cartão de comerciante com validade de 12 meses e com um valor superior a 25€/mensal para evitar bloqueios. Só te será cobrado o calor da viagem";
+"CARD_NUMBER" = "Número do cartão";

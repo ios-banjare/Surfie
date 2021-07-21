@@ -7,17 +7,19 @@
 
 import UIKit
 
-/*enum LeftMenu: Int {
+enum LeftMenu: Int {
     case dashboard = 0
-    case bookShelf
-    case myLibrary
+    case payment
+    case history
+    case notification
     case profile
-    case favorite
+    case inviteFriend
+    case logout
 }
 
 protocol LeftMenuProtocol : AnyObject {
     func changeViewController(_ menu: LeftMenu)
-} */
+}
 
 class MenuViewController: UIViewController { //, LeftMenuProtocol {
     
@@ -38,48 +40,17 @@ class MenuViewController: UIViewController { //, LeftMenuProtocol {
     
     let arrImg = [#imageLiteral(resourceName: "home"), #imageLiteral(resourceName: "mywallet"), #imageLiteral(resourceName: "history"), #imageLiteral(resourceName: "notify"), #imageLiteral(resourceName: "settings"), #imageLiteral(resourceName: "settings"), #imageLiteral(resourceName: "logout")]
     
-    var selectedIndex = -1
-    static var paymntFlag = 0
+  //  var selectedIndex = -1
+ //   static var paymntFlag = 0
     
-   /* var dashboardVC: UIViewController!
-    var bookShelfVC: UIViewController!
-    var myLibraryVC: UIViewController!
-    var profileVC: UIViewController!
-    var favoriteVC: UIViewController! */
-
+    var dashboardVC: UIViewController!
+    var paymentVC: UIViewController!
+    var historyVC: UIViewController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         initialSetup()
-        
-        
-        
-       /* let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        
-        let dashboard = storyboard.instantiateViewController(withIdentifier: "HomeVC") as! HomeVC
-        let nvcD = UINavigationController(rootViewController: dashboard)
-        self.dashboardVC = nvcD
-        
-        let category = storyboard.instantiateViewController(withIdentifier: "CategoryVC") as! CategoryVC
-        let nvcC = UINavigationController(rootViewController: category)
-        self.bookShelfVC = nvcC
-        
-        let profile = storyboard.instantiateViewController(withIdentifier: "ProfileVC") as! ProfileVC
-        let nvcP = UINavigationController(rootViewController: profile)
-        self.profileVC = nvcP
-        
-        let library = storyboard.instantiateViewController(withIdentifier: "MyLibraryVC") as! MyLibraryVC
-        let nvcLib = UINavigationController(rootViewController: library)
-        self.myLibraryVC = nvcLib
-        
-        
-        let fav = storyboard.instantiateViewController(withIdentifier: "FavouriteVC") as! FavouriteVC
-        let nvcFav = UINavigationController(rootViewController: fav)
-        self.favoriteVC = nvcFav
-        
-        if #available(iOS 11.0, *) {
-            tblMenu.contentInsetAdjustmentBehavior = .never
-        } */
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -127,25 +98,20 @@ class MenuViewController: UIViewController { //, LeftMenuProtocol {
         AppCommon.guestUser(strM) */
     }
     
-   /* func changeViewController(_ menu: LeftMenu) {
+   func changeViewController(_ menu: LeftMenu) {
         switch menu {
         case .dashboard:
-            UserDefaults.standard.setValue("home", forKey: "SelectedTab");
+            Defaults.setValueFor(key: .selectedTab,
+                                 value: TabNames.rent.rawValue)
             self.slideMenuController()?.changeMainViewController(self.dashboardVC, close: true)
-        case .bookShelf:
-            UserDefaults.standard.setValue("category", forKey: "SelectedTab");
-            self.slideMenuController()?.changeMainViewController(self.bookShelfVC, close: true)
-        case .myLibrary:
-            UserDefaults.standard.setValue("library", forKey: "SelectedTab");
-            self.slideMenuController()?.changeMainViewController(self.myLibraryVC, close: true)
-        case .profile:
-            UserDefaults.standard.setValue("profile", forKey: "SelectedTab");
-            self.slideMenuController()?.changeMainViewController(self.profileVC, close: true)
-            
-        case .favorite:
-            self.slideMenuController()?.changeMainViewController(self.favoriteVC, close: true)
+        case .logout, .inviteFriend, .notification, .profile: break
+//            UserDefaults.standard.setValue("category", forKey: "SelectedTab");
+        case .payment:
+            self.slideMenuController()?.changeMainViewController(self.paymentVC, close: true)
+        case .history:
+            self.slideMenuController()?.changeMainViewController(self.historyVC, close: true)
         }
-    } */
+    }
     
 }
 
@@ -157,6 +123,27 @@ extension MenuViewController {
         labelSearchMap.text = "SURF MAP".local
         lblName.text = "Troy Malta".local
         
+        let storyboardM = UIStoryboard(name: StoryboardNames.Main.rawValue, bundle: nil)
+        let dashboard = storyboardM.instantiateViewController(withIdentifier: StoryboardIds.Home) as! DashboardViewController
+        let nvcD = UINavigationController(rootViewController: dashboard)
+        nvcD.isNavigationBarHidden = true
+        self.dashboardVC = nvcD
+        
+        let storyboardP = UIStoryboard(name: StoryboardNames.Payment.rawValue, bundle: nil)
+        let payment = storyboardP.instantiateViewController(withIdentifier: StoryboardIds.CardsVC) as! CardsViewController
+        let nvcP = UINavigationController(rootViewController: payment)
+        nvcP.isNavigationBarHidden = true
+        self.paymentVC = nvcP
+        
+        
+        let history = storyboardP.instantiateViewController(withIdentifier: StoryboardIds.HistoryVC) as! HistoryViewController
+        let nvcH = UINavigationController(rootViewController: history)
+        nvcH.isNavigationBarHidden = true
+        self.historyVC = nvcH
+        
+        if #available(iOS 11.0, *) {
+            tblMenu.contentInsetAdjustmentBehavior = .never
+        }
     }
     
 }
@@ -180,10 +167,10 @@ extension MenuViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         self.slideMenuController()?.closeLeft()
-       /* selectedIndex = indexPath.row
-        tblMenu.reloadData()
+//        selectedIndex = indexPath.row
+//        tblMenu.reloadData()
         if let menu = LeftMenu(rawValue: indexPath.row) {
             self.changeViewController(menu)
-        } */
+        }
     }
 }

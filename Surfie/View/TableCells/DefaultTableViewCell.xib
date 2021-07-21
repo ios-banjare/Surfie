@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="DefaultTableViewCell" rowHeight="71" id="KGk-i7-Jjw" customClass="DefaultTableViewCell" customModule="Surfie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="336" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="336" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visaCard" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HEs-Ru-ifd">
+                        <rect key="frame" x="15" y="15.5" width="34" height="34"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="34" id="NN0-SJ-fNo"/>
+                            <constraint firstAttribute="width" constant="34" id="UPU-ik-xcB"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="**** **** **** 3765" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kcM-6h-Mq0">
+                        <rect key="frame" x="64" y="15" width="257" height="16"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="17"/>
+                        <color key="textColor" name="black"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="VISA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aRW-mT-mPn">
+                        <rect key="frame" x="64" y="31" width="257" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="FBF-Xt-G7f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="15"/>
+                        <color key="textColor" name="black"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dzf-VJ-9ba">
+                        <rect key="frame" x="15" y="64" width="306" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="s1e-Kh-52C"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="15"/>
+                        <color key="textColor" name="black"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="aRW-mT-mPn" firstAttribute="leading" secondItem="kcM-6h-Mq0" secondAttribute="leading" id="0BG-3f-Ff8"/>
+                    <constraint firstAttribute="trailing" secondItem="kcM-6h-Mq0" secondAttribute="trailing" constant="15" id="5qQ-i6-mrZ"/>
+                    <constraint firstItem="kcM-6h-Mq0" firstAttribute="leading" secondItem="HEs-Ru-ifd" secondAttribute="trailing" constant="15" id="81T-He-fck"/>
+                    <constraint firstItem="Dzf-VJ-9ba" firstAttribute="top" secondItem="aRW-mT-mPn" secondAttribute="bottom" constant="15" id="9kD-CN-R7r"/>
+                    <constraint firstAttribute="trailing" secondItem="Dzf-VJ-9ba" secondAttribute="trailing" constant="15" id="NAn-Ai-KiH"/>
+                    <constraint firstAttribute="bottom" secondItem="Dzf-VJ-9ba" secondAttribute="bottom" id="SiP-KZ-YgS"/>
+                    <constraint firstItem="aRW-mT-mPn" firstAttribute="top" secondItem="kcM-6h-Mq0" secondAttribute="bottom" id="Tza-wS-ytm"/>
+                    <constraint firstItem="HEs-Ru-ifd" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="UlD-12-HeQ"/>
+                    <constraint firstItem="aRW-mT-mPn" firstAttribute="trailing" secondItem="kcM-6h-Mq0" secondAttribute="trailing" id="dAo-ct-UoR"/>
+                    <constraint firstItem="kcM-6h-Mq0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="jA8-6J-L6o"/>
+                    <constraint firstItem="HEs-Ru-ifd" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="wYr-qH-wct"/>
+                    <constraint firstItem="Dzf-VJ-9ba" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ynw-g7-2Zv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="imgView" destination="HEs-Ru-ifd" id="ZOh-rp-rhy"/>
+                <outlet property="lblHeading" destination="kcM-6h-Mq0" id="CIs-So-GjL"/>
+                <outlet property="lblSubHeading" destination="aRW-mT-mPn" id="xc8-vM-gaa"/>
+            </connections>
+            <point key="canvasLocation" x="143.47826086956522" y="67.96875"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="visaCard" width="49" height="49"/>
+        <namedColor name="black">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

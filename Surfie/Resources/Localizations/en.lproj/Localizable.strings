@@ -12,6 +12,8 @@
 "NEXT" = "Next";
 "LOGIN" = "Login";
 "PHONE_NO" = "Phone number";
+"HISTORY" = "History";
+"CARDS" = "Cardes";
 
 //MARK: - [ Side Menu ] -
 
@@ -78,3 +80,8 @@
 "ACTIVITY" = "Activity";
 "TEMP_REVIEWS" = "I loved it! For sure I want to repeat this class again. Rodrigo was very professional.✌􏰀✌􏰀";
 
+
+//MARK: - [ PAYMENTS ] -
+"ADD_CARD" = "Add Card";
+"ADD_CARD_DESC" = "MBNET/MBway: Adds only 1 merchant card valid for 12 months and with a value greater than €25/month to avoid blocking. You will only be charged for the heat of the trip.";
+"CARD_NUMBER" = "Card number";

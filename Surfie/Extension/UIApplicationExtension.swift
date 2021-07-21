@@ -45,8 +45,8 @@ extension UIApplication {
             DPrint("Failed to delete launch screen cache: \(error)")
         }
     }
+    
+    var keyWindowInConnectedScenes: UIWindow? {
+        return windows.first(where: { $0.isKeyWindow })
+    }
 }
-
-
-
-

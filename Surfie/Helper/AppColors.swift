@@ -8,7 +8,7 @@ struct AppColor {
     static let skyBlue = UIColor(named: "skyBlue")
     static let defaultBlack = UIColor(named: "black")
     static let defaultWhite = UIColor(named: "defaultWhite")
-
+    
     static let errorColor = UIColor(named: "errorColor")
     static let primaryTextColor =  UIColor(named: "primaryTextColor")
     static let primaryThemeColor =  UIColor(named: "primaryThemeColor")
@@ -22,7 +22,8 @@ struct AppColor {
     static let textTitleColor = UIColor(named: "textTitleColor")
     static let defaultShaowColor = UIColor(named: "defaultShaowColor")
     static let appGreenColor = UIColor(named: "appGreenColor")
-    static let orangeColor = UIColor(red: 241/255, green: 127/255, blue: 58/255, alpha: 1)
+    
+    static let orangeColor = UIColor(named: "orange")
 }
 
 func hexStringToUIColor (hex:String) -> UIColor {

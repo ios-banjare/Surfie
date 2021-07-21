@@ -68,7 +68,6 @@ class DashboardViewController: UIViewController, SecondaryHeaderViewDelegate {
     //MARK: - [ Selector Method ] -
     
     func leftMenuButtonClicked() {
-        DPrint("Open menu")
         self.slideMenuController()?.openLeft()
     }
     
