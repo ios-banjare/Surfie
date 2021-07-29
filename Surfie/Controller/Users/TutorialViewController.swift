@@ -63,6 +63,7 @@ class TutorialViewController: UIViewController, TutorialCellDelegate {
         guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: StoryboardIds.Login) else {
             return
         }
+        Defaults.setValueFor(key: .isTutorialDone, value: true)
         self.navigationController?.pushViewController(nextVC, animated: true)
     }
 }

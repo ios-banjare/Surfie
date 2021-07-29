@@ -14,7 +14,7 @@ let kAppDelegateObj = UIApplication.shared.delegate as! AppDelegate
 
 
 enum StoryboardNames: String {
-    case Main, Experience, Payment
+    case Main, Experience, Payment, Profile
 }
 
 struct StoryboardIds {
@@ -29,7 +29,17 @@ struct StoryboardIds {
     static let CardsVC = "CardsViewController"
     static let AddCardVC = "AddCardViewController"
     static let HistoryVC = "HistoryViewController"
-
+    static let RentHistoryVC = "RentHistoryViewController"
+    static let ExperienceHistoryVC = "ExperienceHistoryViewController"
+    static let VehicleHistoryVC = "VehicleHistoryViewController"
+    static let MiscellaneousVC = "MiscellaneousViewController"
+    static let TutorialVC = "TutorialViewController"
+    static let InviteFriendVC = "InviteFriendViewController"
+    static let SurfVC = "SurfViewController"
+    static let ProfileInfoVC = "ProfileInfoViewController"
+    static let ProfilePicVC = "ProfilePicViewController"
+    static let EmailVC = "EmailViewController"
+    static let TravelDetailVC = "TravelDetailViewController"
 }
 
 struct CustomCellIds {
@@ -41,6 +51,7 @@ struct CustomCellIds {
     static let CategoryCollectionCell = "CategoryCollectionViewCell"
     static let ReviewsTableCell = "ReviewsTableViewCell"
     static let DefaultTableCell = "DefaultTableViewCell"
+    static let HistoryTableCell = "HistoryTableViewCell"
     static let Cell = "Cell"
 }
 

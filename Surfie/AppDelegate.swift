@@ -14,13 +14,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     var navigationController : UINavigationController?
     
+    //MARK: -[AppLifeCycle]-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
         GMSServices.provideAPIKey("AIzaSyDT0ou5llt3O65LKFBZk-SddcxXK7BJjLw")
-        Defaults.setValueFor(key: .selectedTab,
-                             value: TabNames.rent.rawValue)
-        Common.instance.rootToSideMenu(controllerBy: StoryboardIds.Home, andByStorybord: StoryboardNames.Main.rawValue)
+        self.setIntialViewController()
         return true
     }
     
@@ -45,6 +44,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
+    }
+    
+    //MARK: -[Helper]-
+    func setIntialViewController() {
+        if Defaults.boolFor(key: .isLoggedIn) {
+            Defaults.setValueFor(key: .selectedTab,
+                                 value: TabNames.rent.rawValue)
+            Common.instance.rootToSideMenu(controllerBy: StoryboardIds.Home, andByStorybord: StoryboardNames.Main.rawValue)
+        } else {
+            if Defaults.boolFor(key: .isTutorialDone) {
+                Common.instance.rootTo(controllerBy: StoryboardIds.Login, andByStorybord: StoryboardNames.Main.rawValue)
+            } else {
+                Common.instance.rootTo(controllerBy: StoryboardIds.TutorialVC, andByStorybord: StoryboardNames.Main.rawValue)
+            }
+        }
     }
 }
 

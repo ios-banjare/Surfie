@@ -68,11 +68,12 @@ class CustomSegmentControl: UIControl {
             indexAccordingToLanguage = (buttons.count - 1)-selectedSegmentIndex
         }
         let  x = (((Screen.Width - 32) / CGFloat(buttons.count)) * CGFloat(indexAccordingToLanguage)) + CGFloat(indexAccordingToLanguage)
-        let y =    (self.frame.maxY - self.frame.minY) - 1.5
+        let y =    (self.frame.maxY - self.frame.minY) - 2
         
-        selector = UIView(frame: CGRect(x: x, y: y, width: selectorWidth, height: 3.0))
+        selector = UIView(frame: CGRect(x: x, y: y, width: selectorWidth, height: 4.0))
         selector.backgroundColor = selectorColor
-        selector.layer.cornerRadius = 1.5
+        selector.layer.cornerRadius = 2
+        selector.layer.masksToBounds = true
         addSubview(selector)
         
         // Create a StackView
@@ -108,7 +109,7 @@ class CustomSegmentControl: UIControl {
                     indexAccordingToLanguage = (buttons.count - 1)-buttonIndex
                 }
                 selectedSegmentIndex = buttonIndex
-                let  selectorStartPosition = (((Screen.Width - 48) / CGFloat(buttons.count)) * CGFloat(indexAccordingToLanguage)) + CGFloat(indexAccordingToLanguage)
+                let  selectorStartPosition = (((Screen.Width - 32) / CGFloat(buttons.count)) * CGFloat(indexAccordingToLanguage)) + CGFloat(indexAccordingToLanguage)
                 UIView.animate(withDuration: 0.3, animations: {
                     self.selector.frame.origin.x = selectorStartPosition
                 })

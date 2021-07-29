@@ -193,6 +193,16 @@ class Common: NSObject {
         UIApplication.window().makeKeyAndVisible()
     }
     
+    
+    func rootTo(controllerBy strId: String, andByStorybord name: String)  {
+        let storyboard = UIStoryboard(name: name, bundle: nil)
+        let mainViewController = storyboard.instantiateViewController(withIdentifier: strId)
+        let nvc: UINavigationController = UINavigationController(rootViewController: mainViewController)
+        nvc.isNavigationBarHidden = true
+        UIApplication.window().rootViewController = nvc
+        UIApplication.window().makeKeyAndVisible()
+    }
+    
     func getSalutaionWish() -> String {
         let hour = Calendar.current.component(.hour, from: Date())
         switch hour {

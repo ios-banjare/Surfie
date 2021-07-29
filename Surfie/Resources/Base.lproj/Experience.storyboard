@@ -552,6 +552,9 @@
         </scene>
     </scenes>
     <designables>
+        <designable name="1dt-h9-sM1">
+            <size key="intrinsicContentSize" width="95" height="15"/>
+        </designable>
         <designable name="Yfh-e0-my6">
             <size key="intrinsicContentSize" width="131" height="31"/>
         </designable>

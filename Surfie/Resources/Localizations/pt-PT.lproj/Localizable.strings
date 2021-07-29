@@ -15,6 +15,14 @@
 "PHONE_NO" = "Número de telefone";
 "HISTORY" = "Histórico";
 "CARDS" = "Cartões";
+"DEFINITIONS" = "Definições";
+"DETAITS" = "Detalhes";
+"RATE_APP" = "Classificar a App";
+"MY_PROFILE" = "Meu Perfil";
+"SOCIAL_NETWORK" = "Redes Sociais";
+"CAREERS" = "Carreiras";
+"INVITE" = "Convidar";
+"CONFIRM" = "Confirme";
 
 //MARK: - [ Side Menu ] -
 
@@ -84,3 +92,48 @@
 "ADD_CARD" = "Adicionar Cartão";
 "ADD_CARD_DESC" = "MBNET/MBway: Adiciona apenas 1 cartão de comerciante com validade de 12 meses e com um valor superior a 25€/mensal para evitar bloqueios. Só te será cobrado o calor da viagem";
 "CARD_NUMBER" = "Número do cartão";
+
+//MARK: - [ Invite Friends ] -
+"CODE" = "Código";
+"INVITE_EARN" = "Convida amigos e ganha créditos!";
+"CREDIT_ON_FRIEND_PURCAHSE" = "Quando os teus amigos fizeram a sua primeira compra, recebes créditos para usar na app.";
+
+//MARK: - [ Surf ] -
+"PEOPLE" = "Pessoas";
+"LIMIT" = "Limite";
+"BOARD" = "Prancha";
+"PRACTISE_BOARD" = "Prancha Praticante";
+
+"LONGBOARD_BOARD" = "Prancha Longboard";
+"DONT_NEED" = "Não preciso";
+"FACT" = "Fato";
+"WANT_CLASS" = "Quero com Aula";
+"ADDITIONAL_NOTE" = "Nota adicional";
+"OPTIONAL" = "Opcional";
+"SERVICE_CHARGE" = "Taxa de Serviço";
+"CLASS_ROOM" = "Aula";
+
+
+//MARK: -[ Profile ]-
+"SHOE_SIZE" = "E o tamanho do teu calçado";
+"INFORMATION" = "Informações";
+"ENTER_FIRST_LAST_NAME" = "É a primeira vez que estás conosco. Diz-nos o teu primeiro e último nome";
+"FIRST" = "Primeiro";
+"LAST" = "Último";
+"ENTER_HEIGHT" = "Precisamos de saber a tua altura para podermos ajudar-te quando alugas o teu equipamento";
+"FOLLOWING" = "Seguinte";
+"ENTER_EMAIL_FIRST_TIME" = "É a primeira vez que estás conosco. Digita o teu email para receberes contacto nosso e para outros assuntos relacionados com a tua conta.";
+"CONFIRM_EMAIL" = "Confirmar Email";
+"YOUR_EMAIL" = "O teu email";
+"YOUR_PIC" = "A tua foto de perfil";
+"ADD_PIC_FIRST_TIME" = "É a primeira vez que estás conosco. Coloca uma fotografia para que as pessoas te possam reconhecer nas entregas.";
+
+//MARK: - [Travel DEtail] -
+"TRAVEL_DETAIL" = "Detalhes Viagem";
+"RESEND_RECEIPT" = "Reenviar o recibo";
+"SERVICE_NOT_HAPPEN" = "O meu serviço não aconteceu";
+"TRIP_CANCEL_FEE" = "Taxa de cancelamento da viagem";
+"REPORT_ACCIDENT" = "Reportar um acidente";
+"CONDUCT_DRIVER" = "Conduta do motorista";
+"I_DAMAGE_EQUIP" = "Danifiquei um equipamento";
+"ANOTHER_PROBLEM" = "Outro problema";

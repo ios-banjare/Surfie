@@ -14,6 +14,14 @@
 "PHONE_NO" = "Phone number";
 "HISTORY" = "History";
 "CARDS" = "Cardes";
+"DEFINITIONS" = "Definitions";
+"DETAITS" = "Details";
+"RATE_APP" = "Rate the App";
+"MY_PROFILE" = "My Profile";
+"SOCIAL_NETWORK" = "Social Networks";
+"CAREERS" = "Careers";
+"INVITE" = "Invite";
+"CONFIRM" = "Confirm";
 
 //MARK: - [ Side Menu ] -
 
@@ -85,3 +93,50 @@
 "ADD_CARD" = "Add Card";
 "ADD_CARD_DESC" = "MBNET/MBway: Adds only 1 merchant card valid for 12 months and with a value greater than €25/month to avoid blocking. You will only be charged for the heat of the trip.";
 "CARD_NUMBER" = "Card number";
+
+
+//MARK: - [ Invite Friends ] -
+"CODE" = "Code";
+"INVITE_EARN" = "Invite friends and earn credits!";
+"CREDIT_ON_FRIEND_PURCAHSE" = "When your friends make their first purchase, you receive credits to use in the app.";
+
+//MARK: - [ Surf ] -
+"PEOPLE" = "People";
+"LIMIT" = "Limit";
+"BOARD" = "Board";
+"PRACTISE_BOARD" = "Practitioner board";
+
+"LONGBOARD_BOARD" = "Longboard board";
+"DONT_NEED" = "I dont need";
+"FACT" = "Fact";
+"WANT_CLASS" = "I want with Class";
+"ADDITIONAL_NOTE" = "Additional note";
+"OPTIONAL" = "Optional";
+"SERVICE_CHARGE" = "Service charge";
+"CLASS_ROOM" = "Classroom";
+
+
+//MARK: -[ Profile ]-
+"SHOE_SIZE" = "And the size of your shoes";
+"INFORMATION" = "Information";
+"ENTER_FIRST_LAST_NAME" = "It's your first time with us. Tell us your first and last name";
+"FIRST" = "First";
+"LAST" = "Last";
+"ENTER_HEIGHT" = "We need to know your height so we can help you when you rent your equipment";
+"FOLLOWING" = "Following";
+"ENTER_EMAIL_FIRST_TIME" = "It's your first time with us. Enter your email to receive contact from us and for other matters related to your account.";
+"CONFIRM_EMAIL" = "Confirm Email";
+"YOUR_EMAIL" = "Your Email";
+"YOUR_PIC" = "Your Profile Picture";
+"ADD_PIC_FIRST_TIME" = "It's your first time with us. Put a photo so people can recognize you in deliveries.";
+
+
+//MARK: - [Travel DEtail] -
+"TRAVEL_DETAIL" = "Travel Details";
+"RESEND_RECEIPT" = "Resend receipt";
+"SERVICE_NOT_HAPPEN" = "My service didn't happen";
+"TRIP_CANCEL_FEE" = "Trip cancellation fee";
+"REPORT_ACCIDENT" = "Report an accident";
+"CONDUCT_DRIVER" = "Driver conduct";
+"I_DAMAGE_EQUIP" = "I damaged a piece of equipment";
+"ANOTHER_PROBLEM" = "Another problem";

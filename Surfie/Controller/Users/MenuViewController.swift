@@ -46,6 +46,8 @@ class MenuViewController: UIViewController { //, LeftMenuProtocol {
     var dashboardVC: UIViewController!
     var paymentVC: UIViewController!
     var historyVC: UIViewController!
+    var miscllaneousVC: UIViewController!
+    var inviteFriendVC: UIViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,18 +100,27 @@ class MenuViewController: UIViewController { //, LeftMenuProtocol {
         AppCommon.guestUser(strM) */
     }
     
-   func changeViewController(_ menu: LeftMenu) {
+    func changeViewController(_ menu: LeftMenu) {
         switch menu {
         case .dashboard:
             Defaults.setValueFor(key: .selectedTab,
                                  value: TabNames.rent.rawValue)
             self.slideMenuController()?.changeMainViewController(self.dashboardVC, close: true)
-        case .logout, .inviteFriend, .notification, .profile: break
-//            UserDefaults.standard.setValue("category", forKey: "SelectedTab");
+        case .inviteFriend:
+            self.slideMenuController()?.changeMainViewController(self.inviteFriendVC, close: true)
+        case .notification: break
         case .payment:
             self.slideMenuController()?.changeMainViewController(self.paymentVC, close: true)
         case .history:
             self.slideMenuController()?.changeMainViewController(self.historyVC, close: true)
+        case .profile:
+            self.slideMenuController()?.changeMainViewController(self.miscllaneousVC, close: true)
+        case .logout:
+            Defaults.clear()
+            Defaults.setValueFor(key: .isTutorialDone, value: true)
+            Common.instance.rootTo(
+                controllerBy: StoryboardIds.Login,
+                andByStorybord: StoryboardNames.Main.rawValue)
         }
     }
     
@@ -124,10 +135,16 @@ extension MenuViewController {
         lblName.text = "Troy Malta".local
         
         let storyboardM = UIStoryboard(name: StoryboardNames.Main.rawValue, bundle: nil)
+        let misc = storyboardM.instantiateViewController(withIdentifier: StoryboardIds.MiscellaneousVC) as! MiscellaneousViewController
+        let nvcM = UINavigationController(rootViewController: misc)
+        nvcM.isNavigationBarHidden = true
+        self.miscllaneousVC = nvcM
+        
         let dashboard = storyboardM.instantiateViewController(withIdentifier: StoryboardIds.Home) as! DashboardViewController
         let nvcD = UINavigationController(rootViewController: dashboard)
         nvcD.isNavigationBarHidden = true
         self.dashboardVC = nvcD
+        
         
         let storyboardP = UIStoryboard(name: StoryboardNames.Payment.rawValue, bundle: nil)
         let payment = storyboardP.instantiateViewController(withIdentifier: StoryboardIds.CardsVC) as! CardsViewController
@@ -135,11 +152,15 @@ extension MenuViewController {
         nvcP.isNavigationBarHidden = true
         self.paymentVC = nvcP
         
-        
         let history = storyboardP.instantiateViewController(withIdentifier: StoryboardIds.HistoryVC) as! HistoryViewController
         let nvcH = UINavigationController(rootViewController: history)
         nvcH.isNavigationBarHidden = true
         self.historyVC = nvcH
+        
+        let inviteF = UIStoryboard(name: StoryboardNames.Profile.rawValue, bundle: nil).instantiateViewController(withIdentifier: StoryboardIds.InviteFriendVC) as! InviteFriendViewController
+        let nvcI = UINavigationController(rootViewController: inviteF)
+        nvcI.isNavigationBarHidden = true
+        self.inviteFriendVC = nvcI
         
         if #available(iOS 11.0, *) {
             tblMenu.contentInsetAdjustmentBehavior = .never

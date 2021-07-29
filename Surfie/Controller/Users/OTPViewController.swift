@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class OTPViewController: UIViewController ,HeaderViewDelegate {
+class OTPViewController: UIViewController, HeaderViewDelegate {
     
     //MARK: - [ IBOutlets & Properties] -
     
@@ -41,8 +41,8 @@ class OTPViewController: UIViewController ,HeaderViewDelegate {
         txtSecond.layer.applySketchShadow()
         txtThird.layer.applySketchShadow()
         txtFourth.layer.applySketchShadow()
-//        self.btnSubmit.alpha = 0.4
-//        self.btnSubmit.isUserInteractionEnabled = false
+        self.btnSubmit.alpha = 0.4
+        self.btnSubmit.isUserInteractionEnabled = false
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -62,6 +62,8 @@ class OTPViewController: UIViewController ,HeaderViewDelegate {
     }
     
     @IBAction func btnSubmitTapped(_ sender: UIButton) {
+        Defaults.setValueFor(key: .isLoggedIn,
+                             value: true)
         Defaults.setValueFor(key: .selectedTab,
                              value: TabNames.rent.rawValue)
         Common.instance.rootToSideMenu(

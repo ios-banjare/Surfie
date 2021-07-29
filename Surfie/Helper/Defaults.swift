@@ -13,6 +13,8 @@ enum DefaultKeys: String {
     case isDarkMode
     case isSystemDarkMode
     case AppTheme
+    case isLoggedIn
+    case isTutorialDone
 }
 
 enum TabNames: String {
