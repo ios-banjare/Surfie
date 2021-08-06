@@ -45,10 +45,10 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="617"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezy-Xs-Nu7">
-                                                <rect key="frame" x="0.0" y="7.5" width="375" height="602"/>
+                                                <rect key="frame" x="0.0" y="11" width="375" height="595.5"/>
                                                 <subviews>
                                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ID0-Xz-YTF">
-                                                        <rect key="frame" x="35" y="520" width="305" height="62"/>
+                                                        <rect key="frame" x="35" y="513.5" width="305" height="62"/>
                                                         <color key="backgroundColor" name="skyBlue"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="62" id="jOv-kN-7uf"/>
@@ -73,7 +73,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0975842" placeholder="CÓDICO" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vGI-Ed-URw">
-                                                        <rect key="frame" x="35" y="443" width="305" height="62"/>
+                                                        <rect key="frame" x="35" y="436.5" width="305" height="62"/>
                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <color key="tintColor" name="skyBlue"/>
                                                         <constraints>
@@ -91,7 +91,7 @@
                                                         </connections>
                                                     </textField>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ht-Jx-SCm">
-                                                        <rect key="frame" x="35" y="212" width="305" height="73.5"/>
+                                                        <rect key="frame" x="35" y="212" width="305" height="70"/>
                                                         <string key="text">Convida amigos
 e ganha créditos!</string>
                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="30"/>
@@ -99,13 +99,13 @@ e ganha créditos!</string>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quando os teus amigos fizeram a sua primeira compra, recebes créditos para usar na app." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNE-Ox-tbC">
-                                                        <rect key="frame" x="35" y="310.5" width="305" height="62.5"/>
+                                                        <rect key="frame" x="35" y="307" width="305" height="59.5"/>
                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
                                                         <color key="textColor" name="black"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CÓDICO" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K41-OW-pc9">
-                                                        <rect key="frame" x="35" y="418" width="305" height="20"/>
+                                                        <rect key="frame" x="35" y="411.5" width="305" height="20"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="dJR-0n-2An"/>
                                                         </constraints>
@@ -212,13 +212,13 @@ e ganha créditos!</string>
                                 <rect key="frame" x="0.0" y="100" width="375" height="1784"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WCu-hG-HnO">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1463"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1462"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vgF-85-ZYd">
                                                 <rect key="frame" x="28" y="115" width="319" height="122"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pessoas" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spP-sH-AN8">
-                                                        <rect key="frame" x="32" y="35" width="64" height="25"/>
+                                                        <rect key="frame" x="32" y="35" width="61" height="25"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="25" id="YzL-aX-sXk"/>
                                                         </constraints>
@@ -227,7 +227,7 @@ e ganha créditos!</string>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pessoas" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wjq-DT-7w3">
-                                                        <rect key="frame" x="32" y="61" width="56" height="25"/>
+                                                        <rect key="frame" x="32" y="61" width="53.5" height="25"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="25" id="0ds-TC-hTD"/>
                                                         </constraints>
@@ -256,7 +256,7 @@ e ganha créditos!</string>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" clipsSubviews="YES" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mdu-1Y-bNC">
-                                                        <rect key="frame" x="201" y="49" width="30" height="24"/>
+                                                        <rect key="frame" x="198" y="49" width="30" height="24"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="24" id="f5T-iG-zEC"/>
@@ -282,7 +282,7 @@ e ganha créditos!</string>
                                                         </connections>
                                                     </button>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DgU-0t-KQJ">
-                                                        <rect key="frame" x="241" y="51" width="6" height="20"/>
+                                                        <rect key="frame" x="238" y="51.5" width="9" height="19"/>
                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
                                                         <color key="textColor" name="black"/>
                                                         <nil key="highlightedColor"/>
@@ -330,7 +330,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="0.0" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prancha" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oxd-gr-yb5">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="68" height="30"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="30"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -348,7 +348,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="40" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zND-yo-hWf">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -388,7 +388,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="80" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M/S" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uWO-Uy-OZf">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -428,7 +428,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="120" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OZr-za-XVl">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -468,7 +468,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="160" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="M/L" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AAS-kH-7bQ">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -508,7 +508,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="200" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="L" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZl-0S-ETI">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -548,7 +548,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="240" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="XL" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rXM-4s-g3N">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -588,7 +588,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="280" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prancha Praticante" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLk-AJ-yT7">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -662,7 +662,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="0.0" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prancha" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Vs-pG-DY5">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="68" height="30"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="59.5" height="30"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -680,7 +680,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="40" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prancha Praticante" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lwy-05-IoT">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -720,7 +720,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="80" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prancha Praticante" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="StL-fm-g5Y">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -760,7 +760,7 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="120" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prancha Praticante" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pSD-rO-gmj">
-                                                                        <rect key="frame" x="0.0" y="6.5" width="243" height="17.5"/>
+                                                                        <rect key="frame" x="0.0" y="7" width="243" height="16.5"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
@@ -828,7 +828,7 @@ e ganha créditos!</string>
                                                 <rect key="frame" x="28" y="812" width="319" height="64"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70Z-es-PEt">
-                                                        <rect key="frame" x="20" y="5" width="138" height="54"/>
+                                                        <rect key="frame" x="20" y="5" width="124" height="54"/>
                                                         <string key="text">Convida amigos
 e ganha créditos!</string>
                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
@@ -874,16 +874,16 @@ e ganha créditos!</string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJW-oG-iyu">
-                                                <rect key="frame" x="28" y="891" width="319" height="135"/>
+                                                <rect key="frame" x="28" y="891" width="319" height="134"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nota adicional: (opcional)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjZ-pd-mYt">
-                                                        <rect key="frame" x="20" y="30" width="279" height="20"/>
+                                                        <rect key="frame" x="20" y="30" width="279" height="19"/>
                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
                                                         <color key="textColor" name="black"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gof-V4-8Ia">
-                                                        <rect key="frame" x="20" y="60" width="279" height="55"/>
+                                                        <rect key="frame" x="20" y="59" width="279" height="55"/>
                                                         <subviews>
                                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="x6J-9h-Rpj">
                                                                 <rect key="frame" x="5" y="4" width="269" height="43"/>
@@ -940,7 +940,7 @@ e ganha créditos!</string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tee-qq-cPA">
-                                                <rect key="frame" x="28" y="1041" width="319" height="310"/>
+                                                <rect key="frame" x="28" y="1040" width="319" height="310"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="0vT-ni-ihz">
                                                         <rect key="frame" x="20" y="20" width="279" height="270"/>
@@ -949,13 +949,13 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="0.0" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prancha" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Twy-JG-468">
-                                                                        <rect key="frame" x="0.0" y="5" width="68" height="20"/>
+                                                                        <rect key="frame" x="0.0" y="5.5" width="59.5" height="19"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ElF-lP-cF0">
-                                                                        <rect key="frame" x="73" y="0.0" width="30" height="30"/>
+                                                                        <rect key="frame" x="64.5" y="0.0" width="30" height="30"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="30" id="Hk7-mx-ayn"/>
                                                                         </constraints>
@@ -1123,16 +1123,16 @@ e ganha créditos!</string>
                                                                 <rect key="frame" x="0.0" y="240" width="279" height="30"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Total" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nc1-sU-z1r">
-                                                                        <rect key="frame" x="0.0" y="2" width="34" height="26"/>
+                                                                        <rect key="frame" x="0.0" y="2" width="30" height="26"/>
                                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                                         <color key="textColor" name="black"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I8s-4H-f2w">
-                                                                        <rect key="frame" x="216.5" y="0.0" width="62.5" height="30"/>
+                                                                        <rect key="frame" x="222" y="0.0" width="57" height="30"/>
                                                                         <subviews>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="38€" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBe-S0-C7Z">
-                                                                                <rect key="frame" x="15" y="2" width="32.5" height="26"/>
+                                                                                <rect key="frame" x="15" y="2" width="27" height="26"/>
                                                                                 <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="16"/>
                                                                                 <color key="textColor" name="black"/>
                                                                                 <nil key="highlightedColor"/>
@@ -1187,7 +1187,7 @@ e ganha créditos!</string>
                                                 </userDefinedRuntimeAttributes>
                                             </view>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OaY-9E-j8B">
-                                                <rect key="frame" x="28" y="1371" width="319" height="62"/>
+                                                <rect key="frame" x="28" y="1370" width="319" height="62"/>
                                                 <color key="backgroundColor" name="skyBlue"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="62" id="M80-sC-QNb"/>
@@ -1774,30 +1774,30 @@ e ganha créditos!</string>
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="722"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="acl-zE-wfT">
-                                                <rect key="frame" x="0.0" y="14" width="414" height="694"/>
+                                                <rect key="frame" x="0.0" y="16" width="414" height="690"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="boy" translatesAutoresizingMaskIntoConstraints="NO" id="9tw-R1-Ici">
-                                                        <rect key="frame" x="105" y="374.5" width="204" height="241.5"/>
+                                                        <rect key="frame" x="105" y="371" width="204" height="241"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="9tw-R1-Ici" secondAttribute="height" multiplier="11:13" id="62p-eU-IIF"/>
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLh-Bg-WE6">
-                                                        <rect key="frame" x="30" y="20" width="354" height="51.5"/>
+                                                        <rect key="frame" x="30" y="20" width="354" height="49"/>
                                                         <string key="text">É a primeira vez que estás conosco. Digita o teu email para receberes contacto nosso e para outros assuntos relacionados com a tua conta.</string>
                                                         <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
                                                         <color key="textColor" name="black"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowLeft" translatesAutoresizingMaskIntoConstraints="NO" id="07C-t8-dd2">
-                                                        <rect key="frame" x="366" y="318.5" width="18" height="18"/>
+                                                        <rect key="frame" x="366" y="315.5" width="18" height="18"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="18" id="XFc-bG-PIX"/>
                                                             <constraint firstAttribute="height" constant="18" id="XP3-aj-6rW"/>
                                                         </constraints>
                                                     </imageView>
                                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qri-kD-ECp">
-                                                        <rect key="frame" x="269" y="310.5" width="115" height="34"/>
+                                                        <rect key="frame" x="269" y="308" width="115" height="33"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="115" id="DlW-tR-pVJ"/>
@@ -1817,12 +1817,12 @@ e ganha créditos!</string>
                                                         </connections>
                                                     </button>
                                                     <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="2" translatesAutoresizingMaskIntoConstraints="NO" id="0bP-ut-Yiu">
-                                                        <rect key="frame" x="146" y="646" width="122" height="28"/>
+                                                        <rect key="frame" x="146" y="642" width="122" height="28"/>
                                                         <color key="pageIndicatorTintColor" red="0.976000011" green="0.79600000380000002" blue="0.27799999710000001" alpha="0.80447553780000003" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <color key="currentPageIndicatorTintColor" name="yellow"/>
                                                     </pageControl>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="8QL-8g-xFp">
-                                                        <rect key="frame" x="115" y="96.5" width="184" height="184"/>
+                                                        <rect key="frame" x="115" y="94" width="184" height="184"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="8QL-8g-xFp" secondAttribute="height" multiplier="1:1" id="02J-eb-v4m"/>
                                                         </constraints>
@@ -1899,7 +1899,167 @@ e ganha créditos!</string>
             </objects>
             <point key="canvasLocation" x="4512.8000000000002" y="-271.664167916042"/>
         </scene>
+        <!--Chat View Controller-->
+        <scene sceneID="v7U-HX-Dd1">
+            <objects>
+                <viewController storyboardIdentifier="ChatViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Dal-bM-OHt" customClass="ChatViewController" customModule="Surfie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Vzi-3B-WSI">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NuR-6X-c7v" customClass="HeaderView" customModule="Surfie" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="90"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="UyX-3J-c8b"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="grouped" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="Bf1-In-77R">
+                                <rect key="frame" x="0.0" y="100" width="428" height="736"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="Dal-bM-OHt" id="zd1-51-pec"/>
+                                    <outlet property="delegate" destination="Dal-bM-OHt" id="C4S-Ax-SG1"/>
+                                </connections>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x0M-G9-Iib">
+                                <rect key="frame" x="10" y="846" width="408" height="70"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vRg-ie-B75">
+                                        <rect key="frame" x="338" y="15" width="50" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="DUu-BN-zZp"/>
+                                        </constraints>
+                                        <state key="normal" image="send"/>
+                                        <connections>
+                                            <action selector="sendButtonClicked:" destination="Dal-bM-OHt" eventType="touchUpInside" id="nCZ-9v-M1n"/>
+                                        </connections>
+                                    </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text=" Type Your message" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sV0-ja-07v">
+                                        <rect key="frame" x="20" y="15" width="308" height="40"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="jeS-yc-jpt"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="Dal-bM-OHt" id="4ef-jx-FLf"/>
+                                        </connections>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" name="defaultWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="200" id="8Xt-hx-wuj"/>
+                                    <constraint firstAttribute="bottom" secondItem="sV0-ja-07v" secondAttribute="bottom" constant="15" id="OTj-yf-Wrt"/>
+                                    <constraint firstAttribute="trailing" secondItem="vRg-ie-B75" secondAttribute="trailing" constant="20" id="Zhb-7H-Gdd"/>
+                                    <constraint firstItem="vRg-ie-B75" firstAttribute="leading" secondItem="sV0-ja-07v" secondAttribute="trailing" constant="10" id="l1O-fk-AHH"/>
+                                    <constraint firstItem="sV0-ja-07v" firstAttribute="top" secondItem="x0M-G9-Iib" secondAttribute="top" constant="15" id="pMX-2f-ok1"/>
+                                    <constraint firstAttribute="bottom" secondItem="vRg-ie-B75" secondAttribute="bottom" constant="15" id="tJq-yP-Wfw"/>
+                                    <constraint firstItem="vRg-ie-B75" firstAttribute="top" secondItem="x0M-G9-Iib" secondAttribute="top" constant="15" id="uPW-a0-9f1"/>
+                                    <constraint firstItem="sV0-ja-07v" firstAttribute="leading" secondItem="x0M-G9-Iib" secondAttribute="leading" constant="20" id="xHd-y7-Z4C"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" name="black"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.40000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="GYJ-lP-QKc"/>
+                        <color key="backgroundColor" name="pearlWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bf1-In-77R" firstAttribute="top" secondItem="NuR-6X-c7v" secondAttribute="bottom" constant="10" id="0PE-OQ-8cb"/>
+                            <constraint firstItem="NuR-6X-c7v" firstAttribute="leading" secondItem="GYJ-lP-QKc" secondAttribute="leading" id="AhS-mX-HeI"/>
+                            <constraint firstItem="GYJ-lP-QKc" firstAttribute="bottom" secondItem="x0M-G9-Iib" secondAttribute="bottom" constant="10" id="DcU-Zo-5A7"/>
+                            <constraint firstItem="x0M-G9-Iib" firstAttribute="leading" secondItem="GYJ-lP-QKc" secondAttribute="leading" constant="10" id="FXV-JA-F0n"/>
+                            <constraint firstItem="GYJ-lP-QKc" firstAttribute="trailing" secondItem="Bf1-In-77R" secondAttribute="trailing" id="IUa-s0-YJH"/>
+                            <constraint firstItem="NuR-6X-c7v" firstAttribute="trailing" secondItem="GYJ-lP-QKc" secondAttribute="trailing" id="LNP-C7-JET"/>
+                            <constraint firstItem="NuR-6X-c7v" firstAttribute="top" secondItem="GYJ-lP-QKc" secondAttribute="top" id="POW-Cx-8Qb"/>
+                            <constraint firstItem="GYJ-lP-QKc" firstAttribute="trailing" secondItem="x0M-G9-Iib" secondAttribute="trailing" constant="10" id="TsD-Ab-2gE"/>
+                            <constraint firstItem="Bf1-In-77R" firstAttribute="leading" secondItem="GYJ-lP-QKc" secondAttribute="leading" id="ckH-BG-3DU"/>
+                            <constraint firstItem="x0M-G9-Iib" firstAttribute="top" secondItem="Bf1-In-77R" secondAttribute="bottom" constant="10" id="eeD-ak-zTk"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="428" height="926"/>
+                    <connections>
+                        <outlet property="bottomSpace" destination="DcU-Zo-5A7" id="ujJ-8b-nMZ"/>
+                        <outlet property="headerView" destination="NuR-6X-c7v" id="O9f-mo-ofb"/>
+                        <outlet property="lblHeader" destination="L5C-FV-EZh" id="Jh7-qH-Zqr"/>
+                        <outlet property="lblSubHeader" destination="3gL-rF-scL" id="gss-BE-xOa"/>
+                        <outlet property="tblChat" destination="Bf1-In-77R" id="b7X-Jp-IcV"/>
+                        <outlet property="txtMessage" destination="sV0-ja-07v" id="IFc-gS-d6W"/>
+                        <outlet property="vwSectionHeader" destination="vWY-F3-Ile" id="lle-xi-Ubf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c74-lA-rgJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <view contentMode="scaleToFill" id="vWY-F3-Ile">
+                    <rect key="frame" x="0.0" y="0.0" width="425" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="31 July 2020" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L5C-FV-EZh">
+                            <rect key="frame" x="28" y="20" width="369" height="17.5"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                            <color key="textColor" name="black"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="20:30" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3gL-rF-scL">
+                            <rect key="frame" x="28" y="45.5" width="369" height="17.5"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <viewLayoutGuide key="safeArea" id="vQe-vh-87T"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="3gL-rF-scL" firstAttribute="leading" secondItem="L5C-FV-EZh" secondAttribute="leading" id="LHb-KX-opg"/>
+                        <constraint firstItem="3gL-rF-scL" firstAttribute="trailing" secondItem="L5C-FV-EZh" secondAttribute="trailing" id="MUB-UN-PEi"/>
+                        <constraint firstItem="vQe-vh-87T" firstAttribute="bottom" secondItem="3gL-rF-scL" secondAttribute="bottom" constant="17" id="NRo-Ni-Jgm"/>
+                        <constraint firstItem="L5C-FV-EZh" firstAttribute="top" secondItem="vQe-vh-87T" secondAttribute="top" constant="20" id="Nbq-07-e48"/>
+                        <constraint firstItem="3gL-rF-scL" firstAttribute="top" secondItem="L5C-FV-EZh" secondAttribute="bottom" constant="8" id="OzC-kz-hRG"/>
+                        <constraint firstItem="vQe-vh-87T" firstAttribute="trailing" secondItem="L5C-FV-EZh" secondAttribute="trailing" constant="28" id="hiq-ow-uLE"/>
+                        <constraint firstItem="L5C-FV-EZh" firstAttribute="leading" secondItem="vQe-vh-87T" secondAttribute="leading" constant="28" id="joG-0j-rgk"/>
+                    </constraints>
+                </view>
+            </objects>
+            <point key="canvasLocation" x="1772.8" y="-148.42578710644679"/>
+        </scene>
     </scenes>
+    <designables>
+        <designable name="DiB-rK-hUx">
+            <size key="intrinsicContentSize" width="5" height="21.5"/>
+        </designable>
+        <designable name="DtE-CZ-y4d">
+            <size key="intrinsicContentSize" width="45" height="21.5"/>
+        </designable>
+        <designable name="JgU-Qn-EyQ">
+            <size key="intrinsicContentSize" width="45" height="21.5"/>
+        </designable>
+        <designable name="Pyr-qW-ZyX">
+            <size key="intrinsicContentSize" width="5" height="21.5"/>
+        </designable>
+        <designable name="QPK-83-WYJ">
+            <size key="intrinsicContentSize" width="24.5" height="21.5"/>
+        </designable>
+        <designable name="yE9-1K-Lf7">
+            <size key="intrinsicContentSize" width="24.5" height="21.5"/>
+        </designable>
+    </designables>
     <resources>
         <image name="arrowLeft" width="9" height="14"/>
         <image name="boy" width="157" height="209"/>
@@ -1908,6 +2068,7 @@ e ganha créditos!</string>
         <image name="experienceDummy" width="375" height="306"/>
         <image name="iconDetail" width="24" height="24"/>
         <image name="inviteFriend" width="200" height="200"/>
+        <image name="send" width="31" height="31"/>
         <image name="swim" width="199" height="141"/>
         <image name="uncheck" width="24" height="24"/>
         <image name="user" width="44" height="44"/>

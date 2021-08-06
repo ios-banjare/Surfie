@@ -22,6 +22,10 @@
 "CAREERS" = "Careers";
 "INVITE" = "Invite";
 "CONFIRM" = "Confirm";
+"PRICE" = "Price";
+"DIST" = "Distance";
+"TIME" = "Time";
+"CANCEL" = "Cancel";
 
 //MARK: - [ Side Menu ] -
 
@@ -93,7 +97,9 @@
 "ADD_CARD" = "Add Card";
 "ADD_CARD_DESC" = "MBNET/MBway: Adds only 1 merchant card valid for 12 months and with a value greater than €25/month to avoid blocking. You will only be charged for the heat of the trip.";
 "CARD_NUMBER" = "Card number";
-
+"APPLY_COUPON" = "Apply coupon";
+"NIGHTS" = "Nights";
+"CONFIRM_PAY" = "Confirm and Pay";
 
 //MARK: - [ Invite Friends ] -
 "CODE" = "Code";
@@ -140,3 +146,11 @@
 "CONDUCT_DRIVER" = "Driver conduct";
 "I_DAMAGE_EQUIP" = "I damaged a piece of equipment";
 "ANOTHER_PROBLEM" = "Another problem";
+"REINVENT_TRAVEL_WITH" = "Reinvent your travels with";
+"DESCRIPTION" = "Description";
+"CONDITION" = "Conditions";
+"POLICY" = "Policy";
+"MEDITATE_WITH" = "Meditation in the Forest with";
+"MEDITATE_DESC_TEMP" = "Scientists are neck alarm time. Microwave sad sapien carrots peanut soft effects. That the life of Vivamus sed odio quis laoreet massa id ligula.";
+"MEDITATE_IN_FOREST" = "Meditation in the Forest";
+

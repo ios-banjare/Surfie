@@ -45,7 +45,7 @@ class VehiclesViewController: UIViewController, SecondaryHeaderViewDelegate {
 
 // MARK: - [ Table Delegate/DataSource ] -
 
-extension VehiclesViewController: UITableViewDataSource, UITableViewDelegate {
+extension VehiclesViewController: UITableViewDataSource, UITableViewDelegate, VehicleTableCellDelegate {
  
     //Delegate
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -64,11 +64,21 @@ extension VehiclesViewController: UITableViewDataSource, UITableViewDelegate {
             return UITableViewCell()
         }
         cell.oneCell = indexPath.row%2 == 0
+        cell.delegate = self
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        
     }
     
+    func itemSelectedAt(index: Int) {
+        let storyboardE = UIStoryboard(name: StoryboardNames.Experience.rawValue, bundle: nil)
+        guard let nextVC = storyboardE.instantiateViewController(withIdentifier: StoryboardIds.ExperienceDescVC) as? ExperienceDescViewController else {
+            return
+        }
+        nextVC.inForest = index%2 == 0
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
 }

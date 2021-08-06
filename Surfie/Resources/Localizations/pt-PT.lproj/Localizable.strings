@@ -23,6 +23,10 @@
 "CAREERS" = "Carreiras";
 "INVITE" = "Convidar";
 "CONFIRM" = "Confirme";
+"PRICE" = "Preço";
+"DIST" = "Distância";
+"TIME" = "Tempo";
+"CANCEL" = "Cancelar";
 
 //MARK: - [ Side Menu ] -
 
@@ -92,6 +96,9 @@
 "ADD_CARD" = "Adicionar Cartão";
 "ADD_CARD_DESC" = "MBNET/MBway: Adiciona apenas 1 cartão de comerciante com validade de 12 meses e com um valor superior a 25€/mensal para evitar bloqueios. Só te será cobrado o calor da viagem";
 "CARD_NUMBER" = "Número do cartão";
+"APPLY_COUPON" = "Aplicar cupão";
+"NIGHTS" = "Noites";
+"CONFIRM_PAY" = "Confirmar e Pagar";
 
 //MARK: - [ Invite Friends ] -
 "CODE" = "Código";
@@ -137,3 +144,10 @@
 "CONDUCT_DRIVER" = "Conduta do motorista";
 "I_DAMAGE_EQUIP" = "Danifiquei um equipamento";
 "ANOTHER_PROBLEM" = "Outro problema";
+"REINVENT_TRAVEL_WITH" = "Reinventa as tuas viagens com a";
+"DESCRIPTION" = "Descrição";
+"CONDITION" = "Condições";
+"POLICY" = "Política";
+"MEDITATE_WITH" = "Meditação na Floresta com a";
+"MEDITATE_DESC_TEMP" = "Os cientistas estão na hora do alarme do pescoço. Efeitos suaves de amendoim de cenoura triste sapien de microondas. Que a vida de Vivamus sed odio quis laoreet massa id ligula.";
+"MEDITATE_IN_FOREST" = "Meditação na Floresta";

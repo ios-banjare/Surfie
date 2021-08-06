@@ -7,6 +7,10 @@
 
 import UIKit
 
+@objc protocol VehicleTableCellDelegate: NSObjectProtocol {
+    @objc optional func itemSelectedAt(index: Int)
+}
+
 class VehiclesTableViewCell: UITableViewCell {
 
     //MARK: - [ IBOutlets & Properties] -
@@ -15,6 +19,7 @@ class VehiclesTableViewCell: UITableViewCell {
     @IBOutlet weak var lblHeading : UILabel!
 
     var oneCell: Bool = false
+    weak var delegate: VehicleTableCellDelegate?
     
     //MARK: - [ ViewLifeCycle ] -
     override func awakeFromNib() {
@@ -60,6 +65,13 @@ extension VehiclesTableViewCell : UICollectionViewDelegate,UICollectionViewDataS
         return CGSize(width: width,
                       height: 245
         )
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let myDelegate = self.delegate?.itemSelectedAt else {
+            return
+        }
+        myDelegate(indexPath.item)
     }
     
 }

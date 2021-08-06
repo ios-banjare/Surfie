@@ -43,7 +43,7 @@ class DashboardViewController: UIViewController, SecondaryHeaderViewDelegate {
         cvCategory.addObserver(self, forKeyPath: StaticText.ContentSize, options: .new, context: nil)
         
         //Google Map set Up
-        let camera = GMSCameraPosition.camera(withLatitude: -33.86, longitude: 151.20, zoom: 16.0)
+        let camera = GMSCameraPosition.camera(withLatitude: -33.86013352978327, longitude: 151.20291117578745, zoom: 16.0)
         googleMap.camera = camera
         
         //Swipe gesture for swipe up & down the view
@@ -55,7 +55,7 @@ class DashboardViewController: UIViewController, SecondaryHeaderViewDelegate {
         swipeDown.direction = .down
         vwCategory.addGestureRecognizer(swipeDown)
         
-        swiperHeight.constant = 53
+        swiperHeight.constant = self.gridHeight.constant + 285
     }
     
     func setUpLocalizedText() {
@@ -71,6 +71,13 @@ class DashboardViewController: UIViewController, SecondaryHeaderViewDelegate {
         self.slideMenuController()?.openLeft()
     }
     
+    @IBAction func confirmButtonClicked(_ sender: UIButton) {
+        let storyboardE = UIStoryboard(name: StoryboardNames.Experience.rawValue, bundle: nil)
+        guard let nextVC = storyboardE.instantiateViewController(withIdentifier: StoryboardIds.ConfirmRouteVC) as? ConfirmRouteViewController else {
+            return
+        }
+        self.navigationController?.pushViewController(nextVC, animated: true)
+    }
     
     @objc func respondToSwipeGesture(gesture: UIGestureRecognizer) {
         if let swipeGesture = gesture as? UISwipeGestureRecognizer {
@@ -142,6 +149,10 @@ extension DashboardViewController : UICollectionViewDelegate,UICollectionViewDat
         }
         selectedCategory = indexPath.row
         cvCategory.reloadData()
+        UIView.transition(with: vwCategory, duration: 0.4,
+                          options: .curveEaseInOut,
+                          animations: {
+                            self.swiperHeight.constant = 53})
     }
     
 }

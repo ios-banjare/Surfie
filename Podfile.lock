@@ -1,6 +1,7 @@
 PODS:
   - Alamofire (4.9.1)
   - Cosmos (23.0.0)
+  - FSCalendar (2.8.2)
   - GoogleMaps (5.0.0):
     - GoogleMaps/Maps (= 5.0.0)
   - GoogleMaps/Base (5.0.0)
@@ -13,6 +14,7 @@ PODS:
 DEPENDENCIES:
   - Alamofire
   - Cosmos (~> 23.0)
+  - FSCalendar
   - GoogleMaps (= 5.0.0)
   - IQKeyboardManagerSwift
   - Kingfisher
@@ -22,6 +24,7 @@ SPEC REPOS:
   trunk:
     - Alamofire
     - Cosmos
+    - FSCalendar
     - GoogleMaps
     - IQKeyboardManagerSwift
     - Kingfisher
@@ -30,11 +33,12 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
   Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  FSCalendar: e6a2eb9c571bf0719ed797ef807e08426753c241
   GoogleMaps: 600e5e69bdf7f4ed7cac4d6aa96c7ec08a5aa254
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   Kingfisher: 6c3df386db71d82c0817a429d2c9421a77396529
   NMLocalizedPhoneCountryView: 9042412c89dbdf8776c4d4d853af51f5adbaa37f
 
-PODFILE CHECKSUM: a1ce667fb3b02b9896fb43436a2b5f53b4d3179e
+PODFILE CHECKSUM: 6da9ac56f53e1af1350f8565a5aa9c9e74617a2f
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.2

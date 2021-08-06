@@ -58,6 +58,5 @@ class TutorialCollectionViewCell: UICollectionViewCell {
         }
         myDelegate()
     }
-    
 
 }

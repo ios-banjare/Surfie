@@ -40,6 +40,10 @@ struct StoryboardIds {
     static let ProfilePicVC = "ProfilePicViewController"
     static let EmailVC = "EmailViewController"
     static let TravelDetailVC = "TravelDetailViewController"
+    static let ConfirmPayVC = "ConfirmPayViewController"
+    static let ConfirmRouteVC = "ConfirmRouteViewController"
+    static let ExperienceDescVC = "ExperienceDescViewController"
+    static let ChatVC = "ChatViewController"
 }
 
 struct CustomCellIds {
@@ -53,6 +57,10 @@ struct CustomCellIds {
     static let DefaultTableCell = "DefaultTableViewCell"
     static let HistoryTableCell = "HistoryTableViewCell"
     static let Cell = "Cell"
+    static let ReinventImageCell = "ReinventImageCell"
+    static let ReinventTravelDescCell = "ReinventTravelDescCell"
+    static let SenderChatCell = "SenderChatCell"
+    static let RecieverChatCell = "ReceiverChatCell"
 }
 
 struct ViewNames {

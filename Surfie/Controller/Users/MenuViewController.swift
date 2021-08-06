@@ -48,6 +48,7 @@ class MenuViewController: UIViewController { //, LeftMenuProtocol {
     var historyVC: UIViewController!
     var miscllaneousVC: UIViewController!
     var inviteFriendVC: UIViewController!
+    var chatVC: UIViewController!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -108,7 +109,8 @@ class MenuViewController: UIViewController { //, LeftMenuProtocol {
             self.slideMenuController()?.changeMainViewController(self.dashboardVC, close: true)
         case .inviteFriend:
             self.slideMenuController()?.changeMainViewController(self.inviteFriendVC, close: true)
-        case .notification: break
+        case .notification:
+            self.slideMenuController()?.changeMainViewController(self.chatVC, close: true)
         case .payment:
             self.slideMenuController()?.changeMainViewController(self.paymentVC, close: true)
         case .history:
@@ -156,6 +158,11 @@ extension MenuViewController {
         let nvcH = UINavigationController(rootViewController: history)
         nvcH.isNavigationBarHidden = true
         self.historyVC = nvcH
+        
+        let chat = UIStoryboard(name: StoryboardNames.Profile.rawValue, bundle: nil).instantiateViewController(withIdentifier: StoryboardIds.ChatVC) as! ChatViewController
+        let nvcC = UINavigationController(rootViewController: chat)
+        nvcC.isNavigationBarHidden = true
+        self.chatVC = nvcC
         
         let inviteF = UIStoryboard(name: StoryboardNames.Profile.rawValue, bundle: nil).instantiateViewController(withIdentifier: StoryboardIds.InviteFriendVC) as! InviteFriendViewController
         let nvcI = UINavigationController(rootViewController: inviteF)

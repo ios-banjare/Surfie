@@ -11,15 +11,23 @@
 		181E77F826A63160006E4017 /* DefaultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E77F626A63160006E4017 /* DefaultTableViewCell.swift */; };
 		181E77F926A63160006E4017 /* DefaultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 181E77F726A63160006E4017 /* DefaultTableViewCell.xib */; };
 		181E77FB26A659AA006E4017 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181E77FA26A659AA006E4017 /* CardsViewController.swift */; };
+		1822B3EE26B50586004D85B2 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1822B3ED26B50586004D85B2 /* ChatViewController.swift */; };
 		1827D2EE26A62993009A05BF /* Payment.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827D2ED26A62993009A05BF /* Payment.storyboard */; };
+		1831CF9426B231C30065DB0D /* ConfirmPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1831CF9326B231C30065DB0D /* ConfirmPayViewController.swift */; };
 		18524F3226AF89C200964EAC /* SurfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18524F3126AF89C200964EAC /* SurfViewController.swift */; };
 		185559C426B0F2CC00DFC3C2 /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185559C326B0F2CC00DFC3C2 /* EmailViewController.swift */; };
 		185559C626B0F2E000DFC3C2 /* ProfilePicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185559C526B0F2E000DFC3C2 /* ProfilePicViewController.swift */; };
+		186859D526B26C3D004A510A /* ConfirmRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186859D426B26C3D004A510A /* ConfirmRouteViewController.swift */; };
 		187B0DA826A7C91700DB7993 /* AddCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0DA726A7C91700DB7993 /* AddCardViewController.swift */; };
 		187B0DAA26A7E29300DB7993 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187B0DA926A7E29300DB7993 /* HistoryViewController.swift */; };
+		18A0E82A26B4A2A900955A27 /* DefaultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0E82926B4A2A900955A27 /* DefaultCollectionViewCell.swift */; };
+		18B3AA2026B38A1100EDEA20 /* ExperienceDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3AA1F26B38A1100EDEA20 /* ExperienceDescViewController.swift */; };
 		18B40CC426B0C9FE00BF1DB6 /* ProfileInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B40CC326B0C9FE00BF1DB6 /* ProfileInfoViewController.swift */; };
 		18D4A70026ACA01400BBF5CE /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4A6FF26ACA01400BBF5CE /* Profile.storyboard */; };
 		18D4A70226ACA72C00BBF5CE /* InviteFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4A70126ACA72C00BBF5CE /* InviteFriendViewController.swift */; };
+		18DC155F26B4D046005F6871 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC155E26B4D046005F6871 /* ChatTableViewCell.swift */; };
+		18DC156326B4D0B8005F6871 /* SenderChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DC156226B4D0B8005F6871 /* SenderChatCell.xib */; };
+		18DC156526B4D0CA005F6871 /* ReceiverChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18DC156426B4D0CA005F6871 /* ReceiverChatCell.xib */; };
 		18E9E4D326A8A12D002F3F01 /* ExperienceHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E4D226A8A12D002F3F01 /* ExperienceHistoryViewController.swift */; };
 		18E9E4D526A8A143002F3F01 /* VehicleHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E4D426A8A143002F3F01 /* VehicleHistoryViewController.swift */; };
 		18E9E4D726A8A153002F3F01 /* RentHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E9E4D626A8A153002F3F01 /* RentHistoryViewController.swift */; };
@@ -125,15 +133,23 @@
 		181E77F626A63160006E4017 /* DefaultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTableViewCell.swift; sourceTree = "<group>"; };
 		181E77F726A63160006E4017 /* DefaultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DefaultTableViewCell.xib; sourceTree = "<group>"; };
 		181E77FA26A659AA006E4017 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		1822B3ED26B50586004D85B2 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		1827D2ED26A62993009A05BF /* Payment.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Payment.storyboard; sourceTree = "<group>"; };
+		1831CF9326B231C30065DB0D /* ConfirmPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmPayViewController.swift; sourceTree = "<group>"; };
 		18524F3126AF89C200964EAC /* SurfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfViewController.swift; sourceTree = "<group>"; };
 		185559C326B0F2CC00DFC3C2 /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		185559C526B0F2E000DFC3C2 /* ProfilePicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePicViewController.swift; sourceTree = "<group>"; };
+		186859D426B26C3D004A510A /* ConfirmRouteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmRouteViewController.swift; sourceTree = "<group>"; };
 		187B0DA726A7C91700DB7993 /* AddCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardViewController.swift; sourceTree = "<group>"; };
 		187B0DA926A7E29300DB7993 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		18A0E82926B4A2A900955A27 /* DefaultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultCollectionViewCell.swift; sourceTree = "<group>"; };
+		18B3AA1F26B38A1100EDEA20 /* ExperienceDescViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceDescViewController.swift; sourceTree = "<group>"; };
 		18B40CC326B0C9FE00BF1DB6 /* ProfileInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInfoViewController.swift; sourceTree = "<group>"; };
 		18D4A6FF26ACA01400BBF5CE /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		18D4A70126ACA72C00BBF5CE /* InviteFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteFriendViewController.swift; sourceTree = "<group>"; };
+		18DC155E26B4D046005F6871 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		18DC156226B4D0B8005F6871 /* SenderChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderChatCell.xib; sourceTree = "<group>"; };
+		18DC156426B4D0CA005F6871 /* ReceiverChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReceiverChatCell.xib; sourceTree = "<group>"; };
 		18E9E4D226A8A12D002F3F01 /* ExperienceHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperienceHistoryViewController.swift; sourceTree = "<group>"; };
 		18E9E4D426A8A143002F3F01 /* VehicleHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleHistoryViewController.swift; sourceTree = "<group>"; };
 		18E9E4D626A8A153002F3F01 /* RentHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentHistoryViewController.swift; sourceTree = "<group>"; };
@@ -288,6 +304,10 @@
 				185559C326B0F2CC00DFC3C2 /* EmailViewController.swift */,
 				185559C526B0F2E000DFC3C2 /* ProfilePicViewController.swift */,
 				18019D4826B205FD0089BF09 /* TravelDetailViewController.swift */,
+				1831CF9326B231C30065DB0D /* ConfirmPayViewController.swift */,
+				186859D426B26C3D004A510A /* ConfirmRouteViewController.swift */,
+				18B3AA1F26B38A1100EDEA20 /* ExperienceDescViewController.swift */,
+				1822B3ED26B50586004D85B2 /* ChatViewController.swift */,
 			);
 			path = Users;
 			sourceTree = "<group>";
@@ -498,6 +518,7 @@
 				DB95DBCE268DA96F005100F2 /* ExperienceCollectionViewCell.swift */,
 				DB95DBCF268DA96F005100F2 /* ExperienceCollectionViewCell.xib */,
 				DB29C354268EEEEE006EE0B9 /* CategoryCollectionViewCell.swift */,
+				18A0E82926B4A2A900955A27 /* DefaultCollectionViewCell.swift */,
 			);
 			path = CollectionCells;
 			sourceTree = "<group>";
@@ -515,6 +536,9 @@
 				181E77F726A63160006E4017 /* DefaultTableViewCell.xib */,
 				18E9E4D826A8A389002F3F01 /* HistoryTableViewCell.swift */,
 				18E9E4D926A8A389002F3F01 /* HistoryTableViewCell.xib */,
+				18DC155E26B4D046005F6871 /* ChatTableViewCell.swift */,
+				18DC156226B4D0B8005F6871 /* SenderChatCell.xib */,
+				18DC156426B4D0CA005F6871 /* ReceiverChatCell.xib */,
 			);
 			path = TableCells;
 			sourceTree = "<group>";
@@ -628,12 +652,14 @@
 				DB95DBD1268DA96F005100F2 /* ExperienceCollectionViewCell.xib in Resources */,
 				DB25D30326887E91009661CB /* MontserratAlternates-Light.otf in Resources */,
 				DB25D2FB26887E91009661CB /* Montserrat-ExtraBoldItalic.otf in Resources */,
+				18DC156526B4D0CA005F6871 /* ReceiverChatCell.xib in Resources */,
 				DB25D2FE26887E91009661CB /* Montserrat-Regular.otf in Resources */,
 				DB25D2E626887E91009661CB /* Montserrat-MediumItalic.otf in Resources */,
 				DB6C5836268A0DB7002089A2 /* Localizable.strings in Resources */,
 				DB25D2E326887E91009661CB /* Assets.xcassets in Resources */,
 				DB25D2E426887E91009661CB /* LaunchScreen.storyboard in Resources */,
 				DB25D30426887E91009661CB /* MontserratAlternates-ExtraLight.otf in Resources */,
+				18DC156326B4D0B8005F6871 /* SenderChatCell.xib in Resources */,
 				DB25D30026887E91009661CB /* MontserratAlternates-BoldItalic.otf in Resources */,
 				DB25D2F426887E91009661CB /* MontserratAlternates-Bold.otf in Resources */,
 				DB25D30926887E91009661CB /* MontserratAlternates-Italic.otf in Resources */,
@@ -722,6 +748,7 @@
 				DB25D30F26887E91009661CB /* LoginViewController.swift in Sources */,
 				DBD961F1268C5340003D734B /* VehiclesCollectionViewCell.swift in Sources */,
 				18E9E4D726A8A153002F3F01 /* RentHistoryViewController.swift in Sources */,
+				18A0E82A26B4A2A900955A27 /* DefaultCollectionViewCell.swift in Sources */,
 				18E9E4DE26A8BFE9002F3F01 /* MiscellaneousViewController.swift in Sources */,
 				DB25D2E226887E91009661CB /* AppDelegate.swift in Sources */,
 				18B40CC426B0C9FE00BF1DB6 /* ProfileInfoViewController.swift in Sources */,
@@ -731,6 +758,7 @@
 				DB25D2DF26887E91009661CB /* UINavigationController+Extension.swift in Sources */,
 				DB25D31826887E91009661CB /* CustomTextField.swift in Sources */,
 				18E9E4D526A8A143002F3F01 /* VehicleHistoryViewController.swift in Sources */,
+				18B3AA2026B38A1100EDEA20 /* ExperienceDescViewController.swift in Sources */,
 				DB86294B268B3BB5004FF97A /* HeaderView.swift in Sources */,
 				DBD961FD268CCBB0003D734B /* MenuTableViewCell.swift in Sources */,
 				DB25D31526887E91009661CB /* Validator.swift in Sources */,
@@ -744,6 +772,7 @@
 				DB68EB022691EDFE00091FD3 /* ReviewsViewController.swift in Sources */,
 				DB25D31926887E91009661CB /* ViewController.swift in Sources */,
 				DB25D30D26887E91009661CB /* TutorialCollectionViewCell.swift in Sources */,
+				1822B3EE26B50586004D85B2 /* ChatViewController.swift in Sources */,
 				DB34F8A2269214A500E4E10D /* ProfileViewController.swift in Sources */,
 				18D4A70226ACA72C00BBF5CE /* InviteFriendViewController.swift in Sources */,
 				18019D4926B205FD0089BF09 /* TravelDetailViewController.swift in Sources */,
@@ -755,6 +784,7 @@
 				DB25D2E126887E91009661CB /* UIDevice+JailBroken.swift in Sources */,
 				DB862952268B81A0004FF97A /* VehiclesViewController.swift in Sources */,
 				DB95DBD4268DAA48005100F2 /* ExperienceTableViewCell.swift in Sources */,
+				186859D526B26C3D004A510A /* ConfirmRouteViewController.swift in Sources */,
 				DB29C355268EEEEE006EE0B9 /* CategoryCollectionViewCell.swift in Sources */,
 				DB25D31426887E91009661CB /* AppColors.swift in Sources */,
 				DBD961F8268CCABC003D734B /* SlideMenuController.swift in Sources */,
@@ -762,11 +792,13 @@
 				18E9E4D326A8A12D002F3F01 /* ExperienceHistoryViewController.swift in Sources */,
 				18524F3226AF89C200964EAC /* SurfViewController.swift in Sources */,
 				DBD961F6268CCAB0003D734B /* MenuViewController.swift in Sources */,
+				1831CF9426B231C30065DB0D /* ConfirmPayViewController.swift in Sources */,
 				DB8C45872689B04E003410B6 /* OTPViewController.swift in Sources */,
 				18E9E4DA26A8A389002F3F01 /* HistoryTableViewCell.swift in Sources */,
 				DB862950268B7E94004FF97A /* Defaults.swift in Sources */,
 				DB25D31326887E91009661CB /* DateFormat.swift in Sources */,
 				181E77F826A63160006E4017 /* DefaultTableViewCell.swift in Sources */,
+				18DC155F26B4D046005F6871 /* ChatTableViewCell.swift in Sources */,
 				DB25D31126887E91009661CB /* Constants.swift in Sources */,
 				DB3A6570268F318500CD471E /* ExpertProfileViewController.swift in Sources */,
 			);

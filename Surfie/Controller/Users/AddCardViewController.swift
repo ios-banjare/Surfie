@@ -42,7 +42,10 @@ class AddCardViewController: UIViewController, HeaderViewDelegate {
     }
 
     @IBAction func addCardClicked(sender: UIButton) {
-        
+        guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: StoryboardIds.ConfirmPayVC) else {
+            return
+        }
+        self.navigationController?.pushViewController(nextVC, animated: true)
     }
     
 }
